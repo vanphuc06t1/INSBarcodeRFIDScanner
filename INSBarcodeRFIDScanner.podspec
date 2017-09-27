@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'INSBarcodeRFIDScanner'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'INSBarcodeRFIDScanner for reading barcode and RFID.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ INSBarcodeRFIDScanner for reading barcode and RFID then compare barcode and RFID
   #s.source_files =  'INSBarcodeRFIDScanner/Classes/**/*.{h,m,swift,plist,a}'
    #s.source_files =  'INSBarcodeRFIDScanner/Classes/Public/*.{h,m,swift,plist,a}', 'INSBarcodeRFIDScanner/Classes/Private/RFID/symbolrfid-sdk/include/*.{h}', 'INSBarcodeRFIDScanner/Classes/Private/RFID/symbolrfid-sdk/*.{a}'
   s.source_files = "INSBarcodeRFIDScanner", "INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework"
-  s.pod_target_xcconfig = {'SWIFT_VERSION' => '3' }
+  s.pod_target_xcconfig = {'SWIFT_VERSION' => '3' ,'ENABLE_BITCODE' => "NO"}
   #s.xcconfig     = {'OTHER_LDFLAGS' => '-lObjC' ,  "ENABLE_BITCODE" => "NO" }
   # s.resource_bundles = {
   #   'INSBarcodeRFIDScanner' => ['INSBarcodeRFIDScanner/Assets/**/**/*.png', 'INSBarcodeRFIDScanner/Classes/Private/*.{storyboard,xib}']
@@ -48,7 +48,8 @@ INSBarcodeRFIDScanner for reading barcode and RFID then compare barcode and RFID
    	'OTHER_LDFLAGS' => '$(inherited) -framework "INSBarcodeRFIDScanner" -framework "ZXingObjC"',
    	'USER_HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework/*.h' ,
    	 'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework/*.h',
-   	  'FRAMEWORK_SEARCH_PATHS' => '${PODS_ROOT}/INSBarcodeRFIDScanner/**'
+   	  'FRAMEWORK_SEARCH_PATHS' => '${PODS_ROOT}/INSBarcodeRFIDScanner/**',
+      'ENABLE_BITCODE' => "NO"
    	}
    #	s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2", 'OTHER_LDFLAGS' => "-ObjC" }
   # s.public_header_files = 'Pod/Classes/**/*.h'
