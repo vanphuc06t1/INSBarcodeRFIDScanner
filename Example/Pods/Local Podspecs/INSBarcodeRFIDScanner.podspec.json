@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "summary": "INSBarcodeRFIDScanner for reading barcode and RFID.",
   "description": "INSBarcodeRFIDScanner for reading barcode and RFID then compare barcode and RFID is match or not",
-  "homepage": "https://bitbucket.org/PhucBui88/INSBarcodeRFIDScanner",
+  "homepage": "https://github.com/vanphuc06t1/INSBarcodeRFIDScanner",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "PhucBui": "phuc@inspectorio.com"
   },
   "source": {
-    "git": "https://bitbucket.org/PhucBui88/INSBarcodeRFIDScanner.git",
+    "git": "https://github.com/vanphuc06t1/INSBarcodeRFIDScanner.git",
     "tag": "1.0.4"
   },
   "platforms": {
