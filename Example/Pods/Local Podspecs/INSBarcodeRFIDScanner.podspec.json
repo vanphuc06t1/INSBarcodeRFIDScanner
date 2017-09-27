@@ -1,0 +1,45 @@
+{
+  "name": "INSBarcodeRFIDScanner",
+  "version": "1.0.4",
+  "summary": "INSBarcodeRFIDScanner for reading barcode and RFID.",
+  "description": "INSBarcodeRFIDScanner for reading barcode and RFID then compare barcode and RFID is match or not",
+  "homepage": "https://bitbucket.org/PhucBui88/INSBarcodeRFIDScanner",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PhucBui": "phuc@inspectorio.com"
+  },
+  "source": {
+    "git": "https://bitbucket.org/PhucBui88/INSBarcodeRFIDScanner.git",
+    "tag": "1.0.4"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "source_files": [
+    "INSBarcodeRFIDScanner",
+    "INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework"
+  ],
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "3"
+  },
+  "dependencies": {
+    "ZXingObjC": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Pod/Frameworks/ZXingObjC.framework",
+    "INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework",
+    "Pod/Frameworks/INSBarcodeRFIDScanner.framework"
+  ],
+  "xcconfig": {
+    "OTHER_LDFLAGS": "$(inherited) -framework \"INSBarcodeRFIDScanner\" -framework \"ZXingObjC\"",
+    "USER_HEADER_SEARCH_PATHS": "$(inherited) ${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework/*.h",
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework/*.h",
+    "FRAMEWORK_SEARCH_PATHS": "${PODS_ROOT}/INSBarcodeRFIDScanner/**"
+  }
+}

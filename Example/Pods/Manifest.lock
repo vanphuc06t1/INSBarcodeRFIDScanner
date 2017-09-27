@@ -1,0 +1,28 @@
+PODS:
+  - INSBarcodeRFIDScanner (1.0.4):
+    - ZXingObjC
+  - ZXingObjC (3.2.1):
+    - ZXingObjC/All (= 3.2.1)
+  - ZXingObjC/All (3.2.1)
+
+DEPENDENCIES:
+  - INSBarcodeRFIDScanner (from `https://PhucBui88@bitbucket.org/PhucBui88/insbarcoderfidscanner.git`, tag `1.0.4`)
+  - ZXingObjC
+
+EXTERNAL SOURCES:
+  INSBarcodeRFIDScanner:
+    :git: https://PhucBui88@bitbucket.org/PhucBui88/insbarcoderfidscanner.git
+    :tag: 1.0.4
+
+CHECKOUT OPTIONS:
+  INSBarcodeRFIDScanner:
+    :git: https://PhucBui88@bitbucket.org/PhucBui88/insbarcoderfidscanner.git
+    :tag: 1.0.4
+
+SPEC CHECKSUMS:
+  INSBarcodeRFIDScanner: 47f200a8492a7f2a02abdb401cea53df9e514714
+  ZXingObjC: bbf7b8f0cf8933fdd33eb4f9f46e22308552869b
+
+PODFILE CHECKSUM: 118eab7aa1da3d33b8e6208ac81a92a2c746a113
+
+COCOAPODS: 1.4.0.beta.1
