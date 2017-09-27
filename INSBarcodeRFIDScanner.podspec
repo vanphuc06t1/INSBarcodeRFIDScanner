@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'INSBarcodeRFIDScanner'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'INSBarcodeRFIDScanner for reading barcode and RFID.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ INSBarcodeRFIDScanner for reading barcode and RFID then compare barcode and RFID
   s.source           = { :git => 'https://github.com/vanphuc06t1/INSBarcodeRFIDScanner.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
   s.requires_arc = true
   #s.source_files =  'INSBarcodeRFIDScanner/Classes/**/*.{h,m,swift,plist,a}'
    #s.source_files =  'INSBarcodeRFIDScanner/Classes/Public/*.{h,m,swift,plist,a}', 'INSBarcodeRFIDScanner/Classes/Private/RFID/symbolrfid-sdk/include/*.{h}', 'INSBarcodeRFIDScanner/Classes/Private/RFID/symbolrfid-sdk/*.{a}'
