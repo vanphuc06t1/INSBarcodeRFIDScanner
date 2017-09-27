@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 INSBarcodeRFIDScanner for reading barcode and RFID then compare barcode and RFID is match or not
                        DESC
 
-  s.homepage         = 'https://bitbucket.org/PhucBui88/INSBarcodeRFIDScanner'
+  s.homepage         = 'https://github.com/vanphuc06t1/INSBarcodeRFIDScanner'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'PhucBui' => 'phuc@inspectorio.com' }
-  s.source           = { :git => 'https://bitbucket.org/PhucBui88/INSBarcodeRFIDScanner.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/vanphuc06t1/INSBarcodeRFIDScanner.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
