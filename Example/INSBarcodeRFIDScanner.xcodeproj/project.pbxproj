@@ -224,7 +224,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-INSBarcodeRFIDScanner_Example/Pods-INSBarcodeRFIDScanner_Example-frameworks.sh",
-				"${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework",
+				"${PODS_ROOT}/../../INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework",
 				"${BUILT_PRODUCTS_DIR}/ZXingObjC/ZXingObjC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";

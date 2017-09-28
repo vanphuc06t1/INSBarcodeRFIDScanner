@@ -1,28 +1,22 @@
 PODS:
-  - INSBarcodeRFIDScanner (1.0.6):
+  - INSBarcodeRFIDScanner (1.0.8):
     - ZXingObjC
   - ZXingObjC (3.2.1):
     - ZXingObjC/All (= 3.2.1)
   - ZXingObjC/All (3.2.1)
 
 DEPENDENCIES:
-  - INSBarcodeRFIDScanner (from `https://github.com/vanphuc06t1/INSBarcodeRFIDScanner.git`, branch `master`)
+  - INSBarcodeRFIDScanner (from `../`)
   - ZXingObjC
 
 EXTERNAL SOURCES:
   INSBarcodeRFIDScanner:
-    :branch: master
-    :git: https://github.com/vanphuc06t1/INSBarcodeRFIDScanner.git
-
-CHECKOUT OPTIONS:
-  INSBarcodeRFIDScanner:
-    :commit: 8e4bdbdeecaf385848142fc9de6493b1ba706f2d
-    :git: https://github.com/vanphuc06t1/INSBarcodeRFIDScanner.git
+    :path: ../
 
 SPEC CHECKSUMS:
-  INSBarcodeRFIDScanner: f1bb3a050a4de2a3aff659f2524ef638c7632e9a
+  INSBarcodeRFIDScanner: 7385a8552a4384bb44b6a10a4a4178c9febbe51f
   ZXingObjC: bbf7b8f0cf8933fdd33eb4f9f46e22308552869b
 
-PODFILE CHECKSUM: a0645d0fcff0ce44c7793bfbecdf4601841d7ecb
+PODFILE CHECKSUM: 8b83c7dc2d79f6d936fb02f9d35e625dac64263b
 
 COCOAPODS: 1.4.0.beta.1

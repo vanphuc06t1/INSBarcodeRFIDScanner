@@ -1,6 +1,6 @@
 {
   "name": "INSBarcodeRFIDScanner",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "summary": "INSBarcodeRFIDScanner for reading barcode and RFID.",
   "description": "INSBarcodeRFIDScanner for reading barcode and RFID then compare barcode and RFID is match or not",
   "homepage": "https://github.com/vanphuc06t1/INSBarcodeRFIDScanner",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/vanphuc06t1/INSBarcodeRFIDScanner.git",
-    "tag": "1.0.6"
+    "tag": "1.0.8"
   },
   "platforms": {
     "ios": "8.0"
@@ -24,7 +24,8 @@
     "INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework"
   ],
   "pod_target_xcconfig": {
-    "SWIFT_VERSION": "3"
+    "SWIFT_VERSION": "3",
+    "ENABLE_BITCODE": "NO"
   },
   "dependencies": {
     "ZXingObjC": [
@@ -40,6 +41,7 @@
     "OTHER_LDFLAGS": "$(inherited) -framework \"INSBarcodeRFIDScanner\" -framework \"ZXingObjC\"",
     "USER_HEADER_SEARCH_PATHS": "$(inherited) ${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework/*.h",
     "HEADER_SEARCH_PATHS": "${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework/*.h",
-    "FRAMEWORK_SEARCH_PATHS": "${PODS_ROOT}/INSBarcodeRFIDScanner/**"
+    "FRAMEWORK_SEARCH_PATHS": "${PODS_ROOT}/INSBarcodeRFIDScanner/**",
+    "ENABLE_BITCODE": "NO"
   }
 }
