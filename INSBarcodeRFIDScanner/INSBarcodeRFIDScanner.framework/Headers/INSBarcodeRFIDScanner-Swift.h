@@ -187,8 +187,8 @@ SWIFT_CLASS_NAMED("INSBarcodeRFIDReader")
 
 SWIFT_PROTOCOL("_TtP21INSBarcodeRFIDScanner28INSBarcodeRFIDReaderDelegate_")
 @protocol INSBarcodeRFIDReaderDelegate
-- (void)scanner:(INSBarcodeRFIDReader * _Nonnull)scanner didRecordResult:(UIImage * _Nonnull)didRecordResult isMatch:(BOOL)isMatch;
-- (void)scannerDidCancel:(INSBarcodeRFIDReader * _Nonnull)scanner;
+- (void)scannerWithDidRecordResult:(UIImage * _Nonnull)didRecordResult isMatch:(BOOL)isMatch;
+- (void)scannerDidCancel;
 @end
 
 
