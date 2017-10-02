@@ -1,7 +1,0 @@
-target 'INSBarcodeRFIDScanner' do
-# Comment this line if you're not using Swift and don't want to use dynamic frameworks
-use_frameworks!
-pod 'ZXingObjC'
-pod 'INSBarcodeRFIDScanner', :path => '../INSBarcodeRFIDScanner'
-
-end
