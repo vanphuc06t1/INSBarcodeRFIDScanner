@@ -28,6 +28,7 @@ class ViewController: UIViewController, INSBarcodeRFIDReaderDelegate {
     
     @IBAction func showRFIDScanner(_ sender: Any) {
         scannerScreen.delegate = self
+        
         scannerScreen.showBarcodeRFIDReader()
          print("\(zt_ActiveReader())")
         print("\(zt_ActiveReader().getID())")
