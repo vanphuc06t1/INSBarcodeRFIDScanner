@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BDEBD8324BD3152EADBC8BCB7F5BD53D5A4022C6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D3E77B3EEE03CC7EC2367F5273314205AA3E0137" : 9223372036854775807,
+    "BDEBD8324BD3152EADBC8BCB7F5BD53D5A4022C6" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "06292A42-C6AF-4900-824F-3A8527CAFC7D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D3E77B3EEE03CC7EC2367F5273314205AA3E0137" : "..\/FrameworkRFIDBitbugketCode\/insbarcoderfidframework",
+    "BDEBD8324BD3152EADBC8BCB7F5BD53D5A4022C6" : "INSBarcodeRFIDScanner\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "INSBarcodeRFIDScanner",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/INSBarcodeRFIDScanner.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vanphuc06t1\/INSBarcodeRFIDScanner.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BDEBD8324BD3152EADBC8BCB7F5BD53D5A4022C6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/vanphuc06t1\/insbarcoderfidframework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D3E77B3EEE03CC7EC2367F5273314205AA3E0137"
+    }
+  ]
+}
