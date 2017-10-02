@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'INSBarcodeRFIDScanner'
-  s.version          = '1.0.9'
+  s.version          = '1.1.0'
   s.summary          = 'INSBarcodeRFIDScanner for reading barcode and RFID.'
 
 # This description is used to generate tags and improve search results.
@@ -47,8 +47,9 @@ INSBarcodeRFIDScanner for reading barcode and RFID then compare barcode and RFID
    s.xcconfig     = {
    	'OTHER_LDFLAGS' => '$(inherited) -framework "INSBarcodeRFIDScanner" -framework "ZXingObjC"',
    	'USER_HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework/*.h' ,
-   	 'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework/*.h',
+   	 'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework/*.{h, a}',
    	  'FRAMEWORK_SEARCH_PATHS' => '${PODS_ROOT}/INSBarcodeRFIDScanner/**',
+   	  'LIBRARY_SEARCH_PATHS' => "${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework/Headers",
       'ENABLE_BITCODE' => "NO"
    	}
    #	s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2", 'OTHER_LDFLAGS' => "-ObjC" }
