@@ -12,7 +12,7 @@ import INSBarcodeRFIDScanner
 
 class ViewController: UIViewController, INSBarcodeRFIDReaderDelegate {
 
-    var scannerScreen = INSBarcodeRFIDReader.shared()
+    var rfidScreen = INSBarcodeRFIDReader.shared()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,9 +28,11 @@ class ViewController: UIViewController, INSBarcodeRFIDReaderDelegate {
     
     @IBAction func showRFIDScanner(_ sender: Any) {
     
-        scannerScreen.delegate = self
-        
-        scannerScreen.showBarcodeRFIDReader()
+        rfidScreen.delegate = self
+       
+        rfidScreen.showBarcodeRFIDReader()
+        //rfidScreen.scannerScreen!.rfidScannerManager?.deviceListHasBeenUpdated()
+
          print("\(zt_ActiveReader())")
         print("\(zt_ActiveReader().getID())")
         zt_ActiveReader().getID()
