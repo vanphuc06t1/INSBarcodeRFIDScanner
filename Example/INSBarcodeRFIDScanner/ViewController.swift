@@ -11,6 +11,13 @@ import UIKit
 import INSBarcodeRFIDScanner
 
 class ViewController: UIViewController, INSBarcodeRFIDReaderDelegate {
+    func scannerDidCancel(_ scanner: INSBarcodeRFIDReader) {
+        
+    }
+
+    func scanner(_ scanner: INSBarcodeRFIDReader, didRecordResult: UIImage, isMatch: Bool) {
+        
+    }
     
     
     
@@ -34,17 +41,15 @@ class ViewController: UIViewController, INSBarcodeRFIDReaderDelegate {
         
     }
     
+    func scanner(didRecordResultRFID: UIImage, isMatch: Bool) {
+        
+    }
+    
+    func scannerDidCancelRFID() {
+        
+    }
     
     
 }
 
-extension ViewController {
-    func scanner(_ scanner: INSBarcodeRFIDReader, didRecordResult: UIImage, isMatch: Bool) {
-        
-    }
-    
-    func scannerDidCancel(_ scanner: INSBarcodeRFIDReader) {
-        
-    }
-}
 
