@@ -194,9 +194,11 @@ SWIFT_PROTOCOL("_TtP21INSBarcodeRFIDScanner28INSBarcodeRFIDReaderDelegate_")
 - (void)scannerDidCancelRFID;
 @end
 
+@class zt_RfidAppEngine;
 
 SWIFT_CLASS("_TtC21INSBarcodeRFIDScanner18RFIDScannerManager")
 @interface RFIDScannerManager : NSObject <zt_IRadioOperationEngineListener, zt_IRfidAppEngineDevListDelegate, zt_IRfidAppEngineTriggerEventDelegate>
+@property (nonatomic, strong) zt_RfidAppEngine * _Nullable appEnginer;
 - (void)startConnectToRFIDScanner;
 - (BOOL)onNewTriggerEvent:(BOOL)pressed SWIFT_WARN_UNUSED_RESULT;
 - (void)radioStateChangedOperationRequested:(BOOL)requested aType:(int32_t)operation_type;
