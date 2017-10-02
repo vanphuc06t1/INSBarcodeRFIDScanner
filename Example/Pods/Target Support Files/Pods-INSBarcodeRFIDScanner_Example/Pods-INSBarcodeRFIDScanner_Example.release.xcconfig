@@ -1,5 +1,5 @@
 ENABLE_BITCODE = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) ${PODS_ROOT}/INSBarcodeRFIDScanner/** "${PODS_CONFIGURATION_BUILD_DIR}/ZXingObjC" "${PODS_ROOT}/../../INSBarcodeRFIDScanner"
+FRAMEWORK_SEARCH_PATHS = $(inherited) ${PODS_ROOT}/INSBarcodeRFIDScanner/** "${PODS_CONFIGURATION_BUILD_DIR}/ZXingObjC" "${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = ${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework/*.h $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/INSBarcodeRFIDScanner"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
