@@ -1,11 +1,11 @@
 ENABLE_BITCODE = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) ${PODS_ROOT}/INSBarcodeRFIDScanner/** "$PODS_CONFIGURATION_BUILD_DIR/ZXingObjC" "${PODS_ROOT}/../../INSBarcodeRFIDScanner"
+FRAMEWORK_SEARCH_PATHS = $(inherited) ${PODS_ROOT}/INSBarcodeRFIDScanner/** $PODS_CONFIGURATION_BUILD_DIR/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner "$PODS_CONFIGURATION_BUILD_DIR/ZXingObjC" "${PODS_ROOT}/../../INSBarcodeRFIDScanner"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = ${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework/*.{h, a} $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/INSBarcodeRFIDScanner"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-LIBRARY_SEARCH_PATHS = $(inherited) ${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework/Headers
+LIBRARY_SEARCH_PATHS = $(inherited) $PODS_CONFIGURATION_BUILD_DIR/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework/Headers
 OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/ZXingObjC/ZXingObjC.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/INSBarcodeRFIDScanner"
-OTHER_LDFLAGS = $(inherited) -ObjC -framework "INSBarcodeRFIDScanner" -framework "ZXingObjC"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"symbolrfid-sdk" -framework "INSBarcodeRFIDScanner" -framework "ZXingObjC"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods
