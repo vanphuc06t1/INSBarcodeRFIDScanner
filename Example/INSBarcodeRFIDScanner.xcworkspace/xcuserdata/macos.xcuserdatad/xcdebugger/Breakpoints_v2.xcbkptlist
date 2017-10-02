@@ -10,75 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "INSBarcodeRFIDScanner/ViewController.swift"
-            timestampString = "528620226.743352"
+            timestampString = "528633887.007331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "ViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "INSBarcodeRFIDScanner_Example.ViewController.rfidScreen.getter : INSBarcodeRFIDScanner.INSBarcodeRFIDReader"
-                  moduleName = "INSBarcodeRFIDScanner_Example"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macos/InternalProjects/GitBarcodeRFIDScanner/INSBarcodeRFIDScanner/Example/INSBarcodeRFIDScanner/ViewController.swift"
-                  timestampString = "528628928.107122"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "48">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "INSBarcodeRFIDScanner_Example.ViewController.rfidScreen.setter : INSBarcodeRFIDScanner.INSBarcodeRFIDReader"
-                  moduleName = "INSBarcodeRFIDScanner_Example"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macos/InternalProjects/GitBarcodeRFIDScanner/INSBarcodeRFIDScanner/Example/INSBarcodeRFIDScanner/ViewController.swift"
-                  timestampString = "528628928.108444"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "76">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "INSBarcodeRFIDScanner_Example.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; INSBarcodeRFIDScanner_Example.ViewController"
-                  moduleName = "INSBarcodeRFIDScanner_Example"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macos/InternalProjects/GitBarcodeRFIDScanner/INSBarcodeRFIDScanner/Example/INSBarcodeRFIDScanner/ViewController.swift"
-                  timestampString = "528628928.109832"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "60">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "INSBarcodeRFIDScanner_Example.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;INSBarcodeRFIDScanner_Example.ViewController&gt;"
-                  moduleName = "INSBarcodeRFIDScanner_Example"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macos/InternalProjects/GitBarcodeRFIDScanner/INSBarcodeRFIDScanner/Example/INSBarcodeRFIDScanner/ViewController.swift"
-                  timestampString = "528628928.111111"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "20">
-               </Location>
-            </Locations>
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "showRFIDScanner(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -88,60 +26,76 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "INSBarcodeRFIDScanner/ViewController.swift"
-            timestampString = "528620231.679773"
+            timestampString = "528633887.007331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "showRFIDScanner(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "INSBarcodeRFIDScanner/ViewController.swift"
+            timestampString = "528633860.068301"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "deviceListHasBeenUpdated()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "INSBarcodeRFIDScanner/ViewController.swift"
+            timestampString = "528633854.978788"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "activeScannerDevices()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "INSBarcodeRFIDScanner/ViewController.swift"
+            timestampString = "528633857.749019"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "activeScannerDevices()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "INSBarcodeRFIDScanner/ViewController.swift"
+            timestampString = "528633895.660601"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "INSBarcodeRFIDScanner/ViewController.swift"
-            timestampString = "528628301.87596"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "showRFIDScanner(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "INSBarcodeRFIDScanner/ViewController.swift"
-            timestampString = "528628926.624017"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "showRFIDScanner(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "INSBarcodeRFIDScanner/ViewController.swift"
-            timestampString = "528628330.083646"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "showRFIDScanner(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

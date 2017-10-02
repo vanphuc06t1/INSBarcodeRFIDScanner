@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FEC8252738FFF1FA279E7E0 /* Pods_INSBarcodeRFIDScanner_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3002177F74F612997BBFB21 /* Pods_INSBarcodeRFIDScanner_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		9C2022DCEEA0E135BB192152 /* Pods_INSBarcodeRFIDScanner_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EAC35D0940E6FD87E0FB72 /* Pods_INSBarcodeRFIDScanner_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,7 +40,7 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6095071F3B557D03B79EFCE5 /* INSBarcodeRFIDScanner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = INSBarcodeRFIDScanner.podspec; path = ../INSBarcodeRFIDScanner.podspec; sourceTree = "<group>"; };
 		93163A9AA39A26D9BEA20B8D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A3002177F74F612997BBFB21 /* Pods_INSBarcodeRFIDScanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_INSBarcodeRFIDScanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1EAC35D0940E6FD87E0FB72 /* Pods_INSBarcodeRFIDScanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_INSBarcodeRFIDScanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE39980C65588A69A9E54BB0 /* Pods-INSBarcodeRFIDScanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INSBarcodeRFIDScanner_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-INSBarcodeRFIDScanner_Example/Pods-INSBarcodeRFIDScanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FEC8252738FFF1FA279E7E0 /* Pods_INSBarcodeRFIDScanner_Example.framework in Frameworks */,
+				9C2022DCEEA0E135BB192152 /* Pods_INSBarcodeRFIDScanner_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 		49F44C4B80AEAD73B3039AD5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A3002177F74F612997BBFB21 /* Pods_INSBarcodeRFIDScanner_Example.framework */,
+				B1EAC35D0940E6FD87E0FB72 /* Pods_INSBarcodeRFIDScanner_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-INSBarcodeRFIDScanner_Example/Pods-INSBarcodeRFIDScanner_Example-frameworks.sh",
-				"${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework",
+				"${PODS_ROOT}/../../INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework",
 				"${BUILT_PRODUCTS_DIR}/ZXingObjC/ZXingObjC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
