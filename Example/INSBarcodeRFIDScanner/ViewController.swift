@@ -11,17 +11,8 @@ import UIKit
 import INSBarcodeRFIDScanner
 
 class ViewController: UIViewController, INSBarcodeRFIDReaderDelegate {
-    func scannerDidCancel(_ scanner: INSBarcodeRFIDReader) {
-        
-    }
 
-    func scanner(_ scanner: INSBarcodeRFIDReader, didRecordResult: UIImage, isMatch: Bool) {
-        
-    }
-    
-    
-    
-    var scannerScreen = INSBarcodeRFIDReader.init()
+    var scannerScreen = INSBarcodeRFIDReader.shared()
     
     override func viewDidLoad() {
         super.viewDidLoad()
