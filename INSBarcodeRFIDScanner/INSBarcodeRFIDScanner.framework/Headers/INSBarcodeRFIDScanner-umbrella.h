@@ -21,7 +21,6 @@
 #import "RfidSdkFactory.h"
 #import "RfidAppEngine.h"
 #import "UIImage+Extension.h"
-#import "INSBarcodeRFIDInterface.h"
 
 
 FOUNDATION_EXPORT double ZXingObjCVersionNumber;

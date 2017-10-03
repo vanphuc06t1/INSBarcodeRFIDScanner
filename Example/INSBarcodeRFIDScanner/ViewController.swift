@@ -24,10 +24,10 @@ class ViewController: UIViewController, INSBarcodeRFIDReaderDelegate , zt_IRfidA
         // Do any additional setup after loading the view, typically from a nib.
         
         
-        appEnginer = zt_RfidAppEngine.init()
-        appEnginer = zt_RfidAppEngine.shared()
-        print("Init appEnginer")
-        appEnginer!.addDeviceListDelegate(self as! zt_IRfidAppEngineDevListDelegate)
+//        appEnginer = zt_RfidAppEngine.init()
+//        appEnginer = zt_RfidAppEngine.shared()
+//        print("Init appEnginer")
+//        appEnginer!.addDeviceListDelegate(self as! zt_IRfidAppEngineDevListDelegate)
     }
     
     override func didReceiveMemoryWarning() {
