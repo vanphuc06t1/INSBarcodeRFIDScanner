@@ -138,6 +138,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreGraphics;
 #endif
 
+#import <INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.h>
+
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
 @class UIImageView;
