@@ -142,6 +142,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+@class UILabel;
 @class UIImageView;
 @class RFIDScannerManager;
 @class ZXCapture;
@@ -151,6 +152,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC21INSBarcodeRFIDScanner28BarcodeScannerViewController")
 @interface BarcodeScannerViewController : UIViewController <ZXCaptureDelegate>
+@property (nonatomic, weak) IBOutlet UILabel * _Nullable barcodeValueLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Nullable rfidValueLabel;
 @property (nonatomic, weak) IBOutlet UIImageView * _Nullable captureScanImageView;
 @property (nonatomic, weak) IBOutlet UIImageView * _Nullable noImageScanPortrate;
 @property (nonatomic, strong) RFIDScannerManager * _Nullable rfidScannerManager;
@@ -190,7 +193,7 @@ SWIFT_CLASS_NAMED("INSBarcodeRFIDReader")
 
 SWIFT_PROTOCOL("_TtP21INSBarcodeRFIDScanner28INSBarcodeRFIDReaderDelegate_")
 @protocol INSBarcodeRFIDReaderDelegate
-- (void)scannerWithDidRecordResultRFID:(UIImage * _Nonnull)didRecordResultRFID isMatch:(BOOL)isMatch;
+- (void)scannerWithDidRecordResultRFID:(UIImage * _Nonnull)didRecordResultRFID isMatch:(BOOL)isMatch barcodeValue:(NSString * _Nonnull)barcodeValue rfidValue:(NSString * _Nonnull)rfidValue;
 - (void)scannerDidCancelRFID;
 @end
 

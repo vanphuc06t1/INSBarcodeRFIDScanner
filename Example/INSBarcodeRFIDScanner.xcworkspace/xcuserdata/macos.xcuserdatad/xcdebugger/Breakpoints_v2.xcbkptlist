@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "INSBarcodeRFIDScanner/ViewController.swift"
-            timestampString = "528633887.007331"
+            timestampString = "528713087.864941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "showRFIDScanner(_:)"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "scanner(didRecordResultRFID:isMatch:barcodeValue:rfidValue:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "INSBarcodeRFIDScanner/ViewController.swift"
-            timestampString = "528633887.007331"
+            timestampString = "528713088.993451"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "showRFIDScanner(_:)"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "scanner(didRecordResultRFID:isMatch:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -42,60 +42,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "INSBarcodeRFIDScanner/ViewController.swift"
-            timestampString = "528633860.068301"
+            timestampString = "528713090.366996"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "deviceListHasBeenUpdated()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "INSBarcodeRFIDScanner/ViewController.swift"
-            timestampString = "528633854.978788"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "activeScannerDevices()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "INSBarcodeRFIDScanner/ViewController.swift"
-            timestampString = "528633857.749019"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
-            landmarkName = "activeScannerDevices()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "INSBarcodeRFIDScanner/ViewController.swift"
-            timestampString = "528633895.660601"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "scannerDidCancelRFID()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
