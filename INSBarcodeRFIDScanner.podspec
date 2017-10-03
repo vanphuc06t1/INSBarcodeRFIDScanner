@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'INSBarcodeRFIDScanner'
-  s.version          = '1.1.4'
+  s.version          = '1.1.5'
   s.summary          = 'INSBarcodeRFIDScanner for reading barcode and RFID.'
 
 # This description is used to generate tags and improve search results.
@@ -45,7 +45,7 @@ INSBarcodeRFIDScanner for reading barcode and RFID then compare barcode and RFID
  # s.ios.library = 'Pods/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner/Classes/Private/RFID/symbolrfid-sdk/*'
    #s.xcconfig     = {'LIBRARY_SEARCH_PATHS' => "$(SRCROOT)/Pods/**", 'USER_HEADER_SEARCH_PATHS' => '"${PROJECT_DIR}/.."/**' , "ENABLE_BITCODE" => "NO" }
    s.xcconfig     = {
-   	'OTHER_LDFLAGS' => '$(inherited) -l"symbolrfid-sdk" -framework "INSBarcodeRFIDScanner" -framework "ZXingObjC"',
+   	'OTHER_LDFLAGS' => '$(inherited) -framework "INSBarcodeRFIDScanner" -framework "ZXingObjC"',
    	'USER_HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework/*.h' ,
    	 'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework/*.{h, a}',
    	  'FRAMEWORK_SEARCH_PATHS' => '${PODS_ROOT}/INSBarcodeRFIDScanner/** $PODS_CONFIGURATION_BUILD_DIR/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner',
