@@ -10,7 +10,6 @@
 
 #import "INSBarcodeRFIDScanner/RfidSdkFactory.h"
 #import "INSBarcodeRFIDScanner/RfidAppEngine.h"
-#import "INSBarcodeRFIDScanner/INSBarcodeRFIDInterface.h"
 
 //! Project version number for INSBarcodeRFIDScanner.
 FOUNDATION_EXPORT double INSBarcodeRFIDScannerVersionNumber;
