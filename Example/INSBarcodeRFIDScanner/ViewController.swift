@@ -11,9 +11,10 @@ import UIKit
 import INSBarcodeRFIDScanner
 
 class ViewController: UIViewController, INSBarcodeRFIDReaderDelegate {
-    func scanner(didRecordResultRFID: UIImage, isMatch: Bool) {
+    func scanner(didRecordResultRFID: UIImage, isMatch: Bool, barcodeValue: String, rfidValue: String) {
         
     }
+
 
 
     var rfidScreen = INSBarcodeRFIDReader.shared()
@@ -35,11 +36,14 @@ class ViewController: UIViewController, INSBarcodeRFIDReaderDelegate {
        
         rfidScreen.showBarcodeRFIDReader()
 
-        
+
     }
     
-    func scanner(didRecordResultRFID: UIImage, isMatch: Bool, barcodeValue: String, rfidValue: String) {
-        
+    func scanner(didRecordResultRFID: UIImage, isMatch: Bool, barcodeValue: String, rfidValue: String, decryptedValue: String) {
+        print("isMatch: \(isMatch)")
+        print("rfidValue: \(rfidValue)")
+        print("decryptedValue: \(decryptedValue)")
+        print("barcodeValue: \(barcodeValue)")
     }
     
     func scannerDidCancelRFID() {
