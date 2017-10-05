@@ -102,11 +102,11 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/../../INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework"
+  install_framework "${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZXingObjC/ZXingObjC.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/../../INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework"
+  install_framework "${PODS_ROOT}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZXingObjC/ZXingObjC.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
