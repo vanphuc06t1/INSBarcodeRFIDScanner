@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   INSBarcodeRFIDScanner:
-    :commit: a45a4a7621330261633a75131d4dd1889b7bf6ea
+    :commit: 89ac072bfdceda317568df33393a3a98628a5792
     :git: https://github.com/vanphuc06t1/INSBarcodeRFIDScanner.git
 
 SPEC CHECKSUMS:

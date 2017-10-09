@@ -7,4 +7,5 @@ framework module INSBarcodeRFIDScanner {
 
 module INSBarcodeRFIDScanner.Swift {
     header "INSBarcodeRFIDScanner-Swift.h"
+    requires objc
 }
