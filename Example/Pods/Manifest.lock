@@ -1,5 +1,5 @@
 PODS:
-  - INSBarcodeRFIDScanner (1.2.1):
+  - INSBarcodeRFIDScanner (1.2.2):
     - ZXingObjC
   - ZXingObjC (3.2.1):
     - ZXingObjC/All (= 3.2.1)
@@ -16,11 +16,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   INSBarcodeRFIDScanner:
-    :commit: 675e062530bb6e864f5856d939a96b33be717e79
+    :commit: a45a4a7621330261633a75131d4dd1889b7bf6ea
     :git: https://github.com/vanphuc06t1/INSBarcodeRFIDScanner.git
 
 SPEC CHECKSUMS:
-  INSBarcodeRFIDScanner: e4fd2129bb47b64f2daaafd956e81022caf13110
+  INSBarcodeRFIDScanner: 5a915ab84ce6aab4f17670e9f19d1771c7c66499
   ZXingObjC: bbf7b8f0cf8933fdd33eb4f9f46e22308552869b
 
 PODFILE CHECKSUM: 053777b13be2ee4873dc5cadf59d34fc0a19b4cf
