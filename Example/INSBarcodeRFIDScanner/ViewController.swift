@@ -11,9 +11,9 @@ import UIKit
 import INSBarcodeRFIDScanner
 
 class ViewController: UIViewController, INSBarcodeRFIDReaderDelegate {
-    func scanner(didRecordResultRFID: UIImage, isMatch: Bool, barcodeValue: String, rfidValue: String) {
-        
-    }
+//    func scanner(didRecordResultRFID: UIImage, isMatch: Bool, barcodeValue: String, rfidValue: String) {
+//        
+//    }
 
 
 
