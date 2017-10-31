@@ -1,6 +1,6 @@
 {
   "name": "INSBarcodeRFIDScanner",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "summary": "INSBarcodeRFIDScanner for reading barcode and RFID.",
   "description": "INSBarcodeRFIDScanner for reading barcode and RFID then compare barcode and RFID is match or not",
   "homepage": "https://github.com/vanphuc06t1/INSBarcodeRFIDScanner",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/vanphuc06t1/INSBarcodeRFIDScanner.git",
-    "tag": "1.2.6"
+    "tag": "1.2.7"
   },
   "platforms": {
     "ios": "8.0"
