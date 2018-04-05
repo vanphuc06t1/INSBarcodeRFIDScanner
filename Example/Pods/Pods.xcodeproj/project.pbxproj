@@ -74,7 +74,7 @@
 		266B2E64A6C28582ECDE4D3F606CD081 /* ZXWhiteRectangleDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD909F3CEB83D91CE1BC070FD6EC3A /* ZXWhiteRectangleDetector.m */; };
 		269F6E1C9D9DC448E76DC21F7145E7E1 /* ZXParsedResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D92E86EC300D5BEB8E4C3BFF8DB1CB5 /* ZXParsedResult.m */; };
 		2902C56607F11203635D027F06449C47 /* ZXQRCodeMatrixUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 144BB418796E5D2772939F27F934C528 /* ZXQRCodeMatrixUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		296BDB979BCD5931ED815F905294087D /* ZXingObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8DECB873E57563B9855541B1C554F5 /* ZXingObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		296BDB979BCD5931ED815F905294087D /* ZXingObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B0F4C83F58B3BC646D084686B660DF /* ZXingObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29E83817C138C7A473A446BF44443C53 /* ZXAI01393xDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AA96C9A3955D06A021AFE11E9125F4 /* ZXAI01393xDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A354ED28B26E0253CD1F7AE721E4D5D /* ZXAI01392xDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 23FE0927DAB8FF2BB574AE86A40BA88D /* ZXAI01392xDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A8600E98E0C4B40F6FD4D5EA7A9B3E3 /* ZXCalendarParsedResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9201CB87A834DAC5966E0073EF458E /* ZXCalendarParsedResult.m */; };
@@ -326,7 +326,7 @@
 		ABEA7C97286E63A337ED83771E2E92E3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6E11617BFACAC5F5D9E2A27EA5D2FD /* AVFoundation.framework */; };
 		ACF9764DD70614BF3B30806E04332612 /* ZXQRCodeDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B459D61393B6AFFEBB3CC3FC3254E1B /* ZXQRCodeDecoder.m */; };
 		AD1C4A6085D8C5B66AF6DD81113019F2 /* ZXMaxiCodeDecodedBitStreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 22311BC66D7083914A04C4D3DE2FF2D6 /* ZXMaxiCodeDecodedBitStreamParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADACF612EC8A2DFC291DB26C3D5EF5DC /* Pods-INSBarcodeRFIDScanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DB55984E3828896E686F43BA2DD4E8 /* Pods-INSBarcodeRFIDScanner_Example-dummy.m */; };
+		ADACF612EC8A2DFC291DB26C3D5EF5DC /* Pods-INSBarcodeRFIDScanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43634AA433703887EBA1358843A28E94 /* Pods-INSBarcodeRFIDScanner_Example-dummy.m */; };
 		ADC470D507C40890980834EDA2B25F0C /* ZXAI01392xDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = ED02CE0E43D9FD4A7C634AADD73B8FB5 /* ZXAI01392xDecoder.m */; };
 		AE877179DBE3FD8B31F0482407648C51 /* ZXPDF417CodewordDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F162B6639070E50DFA5444D0C14C9633 /* ZXPDF417CodewordDecoder.m */; };
 		AE928C99EDF4C73883996CC6DBC61991 /* ZXRSSExpandedBlockParsedResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A34130655A6493E056E4102456DCE560 /* ZXRSSExpandedBlockParsedResult.m */; };
@@ -399,7 +399,7 @@
 		D6A7817426CAF4F7F790ED0B20AA0D2A /* ZXUPCEANExtension2Support.h in Headers */ = {isa = PBXBuildFile; fileRef = 12863F345383DFC866D2A5A57B8A0608 /* ZXUPCEANExtension2Support.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6C81D347417C6D6DD8D233A83A74C5C /* ZXAztecDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5017BF3EB7929D6952DD243A05422FA /* ZXAztecDecoder.m */; };
 		D9F63FEA71E1D63BCB85E4BEF6253C43 /* ZXExpandedProductResultParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BAFC14D3EE7826B44C65654F89A1E2 /* ZXExpandedProductResultParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAACA1A6E35262411C1A25BD8317A3D0 /* Pods-INSBarcodeRFIDScanner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0147E2ABC9C49C5374060FB35314EBD4 /* Pods-INSBarcodeRFIDScanner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAACA1A6E35262411C1A25BD8317A3D0 /* Pods-INSBarcodeRFIDScanner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A8632115E6E85C1FA99F78D23C6E29 /* Pods-INSBarcodeRFIDScanner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DABEB7CF8A8F93CD776FB0C537F406E7 /* ZXRGBLuminanceSource.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB56AD048BE3E2E468F39BE39FA21F5 /* ZXRGBLuminanceSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB77F62F7AE8B276A5739E11C0204BF5 /* ZXQRCodeWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 686EAC9D913EBE8F41D280D77DA92E86 /* ZXQRCodeWriter.m */; };
 		DC38CE2BCC9B9708C8E1CDD26B469A36 /* ZXAI01320xDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 82BF1B634FE81E128A4A97C9E47066CD /* ZXAI01320xDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -430,7 +430,7 @@
 		E573FE47199EB3F599F760D47341EAE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85C4E42140D619C0753FA162796D2A4 /* CoreGraphics.framework */; };
 		E5FAE5F37938B1A8AC4D773C0997823E /* ZXEAN8Writer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DFA10CB73E4040428587FB6163D5D8 /* ZXEAN8Writer.m */; };
 		E62FD2986268FF1A753F24017D1FE76D /* ZXPDF417ErrorCorrection.h in Headers */ = {isa = PBXBuildFile; fileRef = B845E3DFB4B084A5BF607E72BED56CFE /* ZXPDF417ErrorCorrection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6D75D5809C2AFD4E89BA575B5FC732F /* ZXingObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3DE3AAE2FF9DA4920B53E64514A868 /* ZXingObjC-dummy.m */; };
+		E6D75D5809C2AFD4E89BA575B5FC732F /* ZXingObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF330062144929FAB4CD8A17B832277 /* ZXingObjC-dummy.m */; };
 		E72A6294D0DE66994683D192CDEEF6CB /* ZXRSSExpandedReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 874C82A0643B262D7E2BE021A530792F /* ZXRSSExpandedReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7B2BBFA780F9C38FCBEF67A1E3DE111 /* ZXISBNResultParser.h in Headers */ = {isa = PBXBuildFile; fileRef = C506695C7F3C5C517E4EDDDDA3E66FF5 /* ZXISBNResultParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E815EA00D80951BD820BE820CE4AFA26 /* ZXReedSolomonDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECF4ED3B04974C8BABD7225052F7C4A /* ZXReedSolomonDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -493,7 +493,6 @@
 /* Begin PBXFileReference section */
 		005F22D88CF8F0214AE4CD558D8957ED /* ZXDataMatrixDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixDetector.h; path = ZXingObjC/datamatrix/detector/ZXDataMatrixDetector.h; sourceTree = "<group>"; };
 		01095F1D701EF9F950BF422521BACD79 /* ZXTextParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXTextParsedResult.h; path = ZXingObjC/client/result/ZXTextParsedResult.h; sourceTree = "<group>"; };
-		0147E2ABC9C49C5374060FB35314EBD4 /* Pods-INSBarcodeRFIDScanner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-INSBarcodeRFIDScanner_Example-umbrella.h"; sourceTree = "<group>"; };
 		01C5AD09F486815B85A8C5F5E2878866 /* ZXMathUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXMathUtils.h; path = ZXingObjC/common/detector/ZXMathUtils.h; sourceTree = "<group>"; };
 		01ED3B345CB41BD990D8688040F7308B /* ZXCodaBarWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXCodaBarWriter.h; path = ZXingObjC/oned/ZXCodaBarWriter.h; sourceTree = "<group>"; };
 		029560EF4F03A91E09193448CBC3F350 /* ZXStringUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXStringUtils.h; path = ZXingObjC/common/ZXStringUtils.h; sourceTree = "<group>"; };
@@ -524,7 +523,6 @@
 		10218BC4E77D899FD7D412ED495445A4 /* ZXHybridBinarizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXHybridBinarizer.m; path = ZXingObjC/common/ZXHybridBinarizer.m; sourceTree = "<group>"; };
 		106FB0EEE123F88FBAB096F0602FB264 /* ZXRSSExpandedFieldParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSExpandedFieldParser.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedFieldParser.m; sourceTree = "<group>"; };
 		10ADCA23AE83CB48F7837606BFF1CF68 /* ZXCode39Writer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXCode39Writer.m; path = ZXingObjC/oned/ZXCode39Writer.m; sourceTree = "<group>"; };
-		10DB55984E3828896E686F43BA2DD4E8 /* Pods-INSBarcodeRFIDScanner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-INSBarcodeRFIDScanner_Example-dummy.m"; sourceTree = "<group>"; };
 		1132215E64C7F3DD2F1C5E70E0B00157 /* ZXBitArrayBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXBitArrayBuilder.m; path = ZXingObjC/oned/rss/expanded/ZXBitArrayBuilder.m; sourceTree = "<group>"; };
 		115573566DF0439073F9F5C0BCF3348A /* ZXAztecCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAztecCode.h; path = ZXingObjC/aztec/encoder/ZXAztecCode.h; sourceTree = "<group>"; };
 		11FEA15937DAAD66E9BE84CB4F7EF3F1 /* ZXRSSExpandedGeneralAppIdDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSExpandedGeneralAppIdDecoder.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedGeneralAppIdDecoder.m; sourceTree = "<group>"; };
@@ -558,11 +556,13 @@
 		1D533A7DAD310575F3DABF036EFCEEE6 /* ZXOneDReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXOneDReader.m; path = ZXingObjC/oned/ZXOneDReader.m; sourceTree = "<group>"; };
 		1D92E86EC300D5BEB8E4C3BFF8DB1CB5 /* ZXParsedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXParsedResult.m; path = ZXingObjC/client/result/ZXParsedResult.m; sourceTree = "<group>"; };
 		1DD50E7B70F7F555E512875780AB4368 /* ZXAztecDetectorResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAztecDetectorResult.h; path = ZXingObjC/aztec/ZXAztecDetectorResult.h; sourceTree = "<group>"; };
+		1E3AEE4D4B5C730887C38CB573FF9379 /* Pods-INSBarcodeRFIDScanner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-INSBarcodeRFIDScanner_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1EC83D1A28BA3D3505A12D6318692529 /* ZXMathUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXMathUtils.m; path = ZXingObjC/common/detector/ZXMathUtils.m; sourceTree = "<group>"; };
 		1EF90C357E6599084F2F63A991A63AF1 /* ZXBitArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXBitArray.h; path = ZXingObjC/common/ZXBitArray.h; sourceTree = "<group>"; };
 		1F3162D385706AD7E4D35388FD01E561 /* ZXAI013103decoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAI013103decoder.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI013103decoder.h; sourceTree = "<group>"; };
 		1F9A29E6AC36998B4E272A6DCE9E64AA /* ZXVEventResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXVEventResultParser.m; path = ZXingObjC/client/result/ZXVEventResultParser.m; sourceTree = "<group>"; };
 		218490D08FA82CA5819BEEEAD2495EFB /* ZXBoolArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXBoolArray.m; path = ZXingObjC/common/ZXBoolArray.m; sourceTree = "<group>"; };
+		21E38CBD71A39DF6D4882B8E6CC01F78 /* ZXingObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZXingObjC-prefix.pch"; sourceTree = "<group>"; };
 		22311BC66D7083914A04C4D3DE2FF2D6 /* ZXMaxiCodeDecodedBitStreamParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXMaxiCodeDecodedBitStreamParser.h; path = ZXingObjC/maxicode/decoder/ZXMaxiCodeDecodedBitStreamParser.h; sourceTree = "<group>"; };
 		223808BAC093C8261D27776610FE6D2D /* ZXQRCodeDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeDetector.m; path = ZXingObjC/qrcode/detector/ZXQRCodeDetector.m; sourceTree = "<group>"; };
 		23395485FCFCC5666A8761FAAF7E72FB /* ZXPDF417HighLevelEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417HighLevelEncoder.h; path = ZXingObjC/pdf417/encoder/ZXPDF417HighLevelEncoder.h; sourceTree = "<group>"; };
@@ -590,9 +590,7 @@
 		29B6FB17092A7B9FFD78CD5C905EE857 /* ZXPerspectiveTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPerspectiveTransform.h; path = ZXingObjC/common/ZXPerspectiveTransform.h; sourceTree = "<group>"; };
 		2A0D9D3ED0EA89389769BEA14E1775E1 /* ZXURIParsedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXURIParsedResult.m; path = ZXingObjC/client/result/ZXURIParsedResult.m; sourceTree = "<group>"; };
 		2A6231D8AB732C370109C8E791CC0344 /* ZXPDF417ResultMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417ResultMetadata.h; path = ZXingObjC/pdf417/ZXPDF417ResultMetadata.h; sourceTree = "<group>"; };
-		2ACF932B6A71BDBE6BEC1DD4D3901E8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B47D21D4F7719EF2EFA947AEA978EE4 /* ZXDataMatrixBitMatrixParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixBitMatrixParser.h; path = ZXingObjC/datamatrix/decoder/ZXDataMatrixBitMatrixParser.h; sourceTree = "<group>"; };
-		2C200ACA295D0AE2C6005A9B72E6FF13 /* ZXingObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZXingObjC.modulemap; sourceTree = "<group>"; };
 		2CFC668024C7DA932C9BADA2FD0A84EF /* ZXBitArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXBitArray.m; path = ZXingObjC/common/ZXBitArray.m; sourceTree = "<group>"; };
 		2DBD909F3CEB83D91CE1BC070FD6EC3A /* ZXWhiteRectangleDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXWhiteRectangleDetector.m; path = ZXingObjC/common/detector/ZXWhiteRectangleDetector.m; sourceTree = "<group>"; };
 		2E1BB607F1B42E00B29F7271E98257F8 /* ZXUPCEANReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXUPCEANReader.h; path = ZXingObjC/oned/ZXUPCEANReader.h; sourceTree = "<group>"; };
@@ -604,7 +602,6 @@
 		32950CDE6A25A16CD53FCA586D7B778D /* ZXAztecBinaryShiftToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAztecBinaryShiftToken.h; path = ZXingObjC/aztec/encoder/ZXAztecBinaryShiftToken.h; sourceTree = "<group>"; };
 		32AA96C9A3955D06A021AFE11E9125F4 /* ZXAI01393xDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAI01393xDecoder.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI01393xDecoder.h; sourceTree = "<group>"; };
 		32ABB54CD4A86500555BA6E7788F1FFC /* ZXCalendarParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXCalendarParsedResult.h; path = ZXingObjC/client/result/ZXCalendarParsedResult.h; sourceTree = "<group>"; };
-		32E0AC7C31C59DE0E4B37732B54BB7FA /* ZXingObjC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZXingObjC.xcconfig; sourceTree = "<group>"; };
 		34146506B588123D6C62390773ADB20F /* ZXPDF417DetectionResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417DetectionResult.m; path = ZXingObjC/pdf417/decoder/ZXPDF417DetectionResult.m; sourceTree = "<group>"; };
 		35843828F7FB1D0486FEC6BE706A1808 /* ZXParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXParsedResult.h; path = ZXingObjC/client/result/ZXParsedResult.h; sourceTree = "<group>"; };
 		35C39557E53BF1773B66FBB3FB8358AE /* ZXAbstractDoCoMoResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAbstractDoCoMoResultParser.m; path = ZXingObjC/client/result/ZXAbstractDoCoMoResultParser.m; sourceTree = "<group>"; };
@@ -633,13 +630,16 @@
 		42551F9FF94E416FC12EB8F00D4DF1DC /* ZXQRCodeMaskUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeMaskUtil.h; path = ZXingObjC/qrcode/encoder/ZXQRCodeMaskUtil.h; sourceTree = "<group>"; };
 		42720FC0CB72A0342ACDE3B6E64A0218 /* ZXDataMatrixEncoderContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixEncoderContext.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixEncoderContext.m; sourceTree = "<group>"; };
 		4288AEE14C2348888A96F4B475BCA535 /* ZXDataMatrixDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixDecoder.m; path = ZXingObjC/datamatrix/decoder/ZXDataMatrixDecoder.m; sourceTree = "<group>"; };
+		43634AA433703887EBA1358843A28E94 /* Pods-INSBarcodeRFIDScanner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-INSBarcodeRFIDScanner_Example-dummy.m"; sourceTree = "<group>"; };
 		439A16D0945B91D15F9FBF3826F7083A /* ZXPDF417BarcodeMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417BarcodeMetadata.h; path = ZXingObjC/pdf417/decoder/ZXPDF417BarcodeMetadata.h; sourceTree = "<group>"; };
 		43ED7FD6F16A6AAF3409A6342E9E7CCD /* ZXPDF417BarcodeMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417BarcodeMetadata.m; path = ZXingObjC/pdf417/decoder/ZXPDF417BarcodeMetadata.m; sourceTree = "<group>"; };
 		441F37F62E22CC1DF534E348F3BA17A6 /* ZXReedSolomonEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXReedSolomonEncoder.m; path = ZXingObjC/common/reedsolomon/ZXReedSolomonEncoder.m; sourceTree = "<group>"; };
+		442F553313160ACFD07DAE7411989B03 /* ZXingObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZXingObjC.modulemap; sourceTree = "<group>"; };
 		446C179F138582B77FF98A088BA62C0F /* ZXURIResultParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXURIResultParser.h; path = ZXingObjC/client/result/ZXURIResultParser.h; sourceTree = "<group>"; };
 		447C854C446380619EDA035E5D404B9F /* ZXDataMatrixSymbolInfo144.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixSymbolInfo144.h; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixSymbolInfo144.h; sourceTree = "<group>"; };
 		45064A16765C7200555F1499E4DA9E84 /* ZXDimension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDimension.m; path = ZXingObjC/core/ZXDimension.m; sourceTree = "<group>"; };
 		455486CF8DC244E67DD64D95741FD5DC /* ZXPDF417DetectionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417DetectionResult.h; path = ZXingObjC/pdf417/decoder/ZXPDF417DetectionResult.h; sourceTree = "<group>"; };
+		469F6F89BE780A8268B9FE6A7421E3DD /* Pods-INSBarcodeRFIDScanner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-INSBarcodeRFIDScanner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4720089BF00214D50A1C618EB0ACC69F /* ZXPDF417Reader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417Reader.h; path = ZXingObjC/pdf417/ZXPDF417Reader.h; sourceTree = "<group>"; };
 		4A08485D7F9F63D7DE0A771B59B652BB /* ZXQRCodeMaskUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeMaskUtil.m; path = ZXingObjC/qrcode/encoder/ZXQRCodeMaskUtil.m; sourceTree = "<group>"; };
 		4CF2F3CE7D91C4FCF326163866798FC2 /* ZXMaxiCodeReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXMaxiCodeReader.h; path = ZXingObjC/maxicode/ZXMaxiCodeReader.h; sourceTree = "<group>"; };
@@ -659,6 +659,7 @@
 		561152B19FCF52DA3279AE45E95FE4E3 /* ZXGenericGF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXGenericGF.m; path = ZXingObjC/common/reedsolomon/ZXGenericGF.m; sourceTree = "<group>"; };
 		567BEEBC9002DD9E7EA33F559B7FC232 /* ZXQRCodeMultiReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeMultiReader.m; path = ZXingObjC/qrcode/multi/ZXQRCodeMultiReader.m; sourceTree = "<group>"; };
 		56B63890B6D0F50220AE14E6E08B716F /* ZXDataMatrixC40Encoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixC40Encoder.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixC40Encoder.m; sourceTree = "<group>"; };
+		56ED0480B6CAD39783BAC4081CD71805 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5746831A2571F46B2B60D36125F6DABB /* ZXQRCodeFinderPatternFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeFinderPatternFinder.h; path = ZXingObjC/qrcode/detector/ZXQRCodeFinderPatternFinder.h; sourceTree = "<group>"; };
 		57F2871008C7161462B39357DCF3D647 /* ZXDataMatrixBase256Encoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixBase256Encoder.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixBase256Encoder.m; sourceTree = "<group>"; };
 		58564D9A43AF71934837624295E41C66 /* ZXAI01decoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAI01decoder.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI01decoder.h; sourceTree = "<group>"; };
@@ -666,7 +667,6 @@
 		58DDB1F5ED055DEEF5F01AF6C86C8A47 /* ZXPDF417ErrorCorrection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417ErrorCorrection.m; path = ZXingObjC/pdf417/encoder/ZXPDF417ErrorCorrection.m; sourceTree = "<group>"; };
 		5A4C8B1804E42A2B00B14085120BD74A /* ZXRSS14Reader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSS14Reader.m; path = ZXingObjC/oned/rss/ZXRSS14Reader.m; sourceTree = "<group>"; };
 		5AD312DAFBA4545785911F662BFD9F50 /* ZXQRCodeMatrixUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeMatrixUtil.m; path = ZXingObjC/qrcode/encoder/ZXQRCodeMatrixUtil.m; sourceTree = "<group>"; };
-		5AE52F0E6D997731294961500E6BCCBF /* Pods-INSBarcodeRFIDScanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-INSBarcodeRFIDScanner_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5BC1B87411BE705E1D00C07B7A13FF2D /* ZXEmailAddressResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXEmailAddressResultParser.m; path = ZXingObjC/client/result/ZXEmailAddressResultParser.m; sourceTree = "<group>"; };
 		5C818F23193829B4D69080D1A0376E23 /* ZXQRCodeBlockPair.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeBlockPair.m; path = ZXingObjC/qrcode/encoder/ZXQRCodeBlockPair.m; sourceTree = "<group>"; };
 		5D01DA4695EF96D18664D897CA56D94B /* ZXModulusPoly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXModulusPoly.h; path = ZXingObjC/pdf417/decoder/ec/ZXModulusPoly.h; sourceTree = "<group>"; };
@@ -691,7 +691,6 @@
 		63BA1185A3F063FC33E32A8F2E4CB7C2 /* ZXQRCodeDecodedBitStreamParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeDecodedBitStreamParser.m; path = ZXingObjC/qrcode/decoder/ZXQRCodeDecodedBitStreamParser.m; sourceTree = "<group>"; };
 		640AF9F0819E87BEE1D67C5B34FAC53D /* ZXGenericMultipleBarcodeReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXGenericMultipleBarcodeReader.h; path = ZXingObjC/multi/ZXGenericMultipleBarcodeReader.h; sourceTree = "<group>"; };
 		6517896C19F82A2F904A37D6D79A626B /* ZXEANManufacturerOrgSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXEANManufacturerOrgSupport.h; path = ZXingObjC/oned/ZXEANManufacturerOrgSupport.h; sourceTree = "<group>"; };
-		65DC34AF8A573F7E9060B70BF5EEFA49 /* Pods-INSBarcodeRFIDScanner_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-INSBarcodeRFIDScanner_Example-resources.sh"; sourceTree = "<group>"; };
 		66761397ADC3FDC15564430776F497F9 /* ZXProductResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXProductResultParser.m; path = ZXingObjC/client/result/ZXProductResultParser.m; sourceTree = "<group>"; };
 		676BCA3538B461A2D3735462F659C0E5 /* ZXPDF417Writer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417Writer.m; path = ZXingObjC/pdf417/ZXPDF417Writer.m; sourceTree = "<group>"; };
 		67EA097A0E0AE3B7E110558D68EEAC44 /* ZXRSSExpandedDecodedChar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSExpandedDecodedChar.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedDecodedChar.m; sourceTree = "<group>"; };
@@ -772,7 +771,6 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94ECFF203C77113948DFA96E8040F136 /* ZXEAN8Reader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXEAN8Reader.h; path = ZXingObjC/oned/ZXEAN8Reader.h; sourceTree = "<group>"; };
 		95EACF80526B30AC26655D1C9C4E78C8 /* ZXAztecDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAztecDecoder.h; path = ZXingObjC/aztec/decoder/ZXAztecDecoder.h; sourceTree = "<group>"; };
-		96CB1B84A348277C6F69527AE83BDFC6 /* ZXingObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZXingObjC-prefix.pch"; sourceTree = "<group>"; };
 		97268E94759886258A1BA695566AF47F /* ZXEmailDoCoMoResultParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXEmailDoCoMoResultParser.h; path = ZXingObjC/client/result/ZXEmailDoCoMoResultParser.h; sourceTree = "<group>"; };
 		9764D02D101738C16250910CA649809A /* ZXAddressBookAUResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAddressBookAUResultParser.m; path = ZXingObjC/client/result/ZXAddressBookAUResultParser.m; sourceTree = "<group>"; };
 		97D70CB9720A7D4B5DBEA878149F1F7C /* ZXRSSExpandedDecodedNumeric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRSSExpandedDecodedNumeric.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedDecodedNumeric.h; sourceTree = "<group>"; };
@@ -785,7 +783,6 @@
 		9BAB2020DA82BCE5CA81C369E94A941F /* ZXingObjCPDF417.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXingObjCPDF417.h; path = ZXingObjC/pdf417/ZXingObjCPDF417.h; sourceTree = "<group>"; };
 		9BBBF731853DF0D539DEAFA61783828C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
 		9C5D3BD43EF726D0275C688A57A1FB52 /* ZXQRCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCode.m; path = ZXingObjC/qrcode/encoder/ZXQRCode.m; sourceTree = "<group>"; };
-		9CD103E606D21DF2C7BBFF9C29BAEA15 /* Pods-INSBarcodeRFIDScanner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-INSBarcodeRFIDScanner_Example.modulemap"; sourceTree = "<group>"; };
 		9D0B7CC738AA7E7EE93D62C23D2AC03B /* ZXPDF417BarcodeValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417BarcodeValue.m; path = ZXingObjC/pdf417/decoder/ZXPDF417BarcodeValue.m; sourceTree = "<group>"; };
 		9D46AABA43F21EEE555F74609FD20423 /* ZXAnyAIDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAnyAIDecoder.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXAnyAIDecoder.h; sourceTree = "<group>"; };
 		9D9B4FD5E9724EB933ECA6BC74A0A722 /* ZXingObjCCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXingObjCCore.h; path = ZXingObjC/core/ZXingObjCCore.h; sourceTree = "<group>"; };
@@ -826,6 +823,7 @@
 		AF297E923C9CA7DC57B74B79C3700B53 /* ZXPDF417Detector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417Detector.h; path = ZXingObjC/pdf417/detector/ZXPDF417Detector.h; sourceTree = "<group>"; };
 		AFA76709CD7D4F1076882F5D1C08A06F /* ZXQRCodeAlignmentPattern.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeAlignmentPattern.m; path = ZXingObjC/qrcode/detector/ZXQRCodeAlignmentPattern.m; sourceTree = "<group>"; };
 		B016FEE6794595C049C17ED5CD5F8330 /* ZXQRCodeEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeEncoder.h; path = ZXingObjC/qrcode/encoder/ZXQRCodeEncoder.h; sourceTree = "<group>"; };
+		B0B0F4C83F58B3BC646D084686B660DF /* ZXingObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZXingObjC-umbrella.h"; sourceTree = "<group>"; };
 		B19A0E2AF53E2267F22A0A1FFA71E0CF /* ZXDataMatrixEdifactEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixEdifactEncoder.h; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixEdifactEncoder.h; sourceTree = "<group>"; };
 		B1A0D620828776111B07EA7839885CBA /* ZXRSSUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSUtils.m; path = ZXingObjC/oned/rss/ZXRSSUtils.m; sourceTree = "<group>"; };
 		B2DB424A3B9B189E0D7832CF2FD586A6 /* ZXDefaultGridSampler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDefaultGridSampler.m; path = ZXingObjC/common/ZXDefaultGridSampler.m; sourceTree = "<group>"; };
@@ -841,19 +839,21 @@
 		B511CF7898D6242492001369DE9B2E01 /* ZXEncodeHints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXEncodeHints.m; path = ZXingObjC/core/ZXEncodeHints.m; sourceTree = "<group>"; };
 		B5B47AE9CEE284FE09A8180023EF04B4 /* ZXQRCodeDataMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeDataMask.h; path = ZXingObjC/qrcode/decoder/ZXQRCodeDataMask.h; sourceTree = "<group>"; };
 		B62BA5749E00ED79D4EC8F4F36A01BAD /* ZXDataMatrixX12Encoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixX12Encoder.h; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixX12Encoder.h; sourceTree = "<group>"; };
+		B7A8632115E6E85C1FA99F78D23C6E29 /* Pods-INSBarcodeRFIDScanner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-INSBarcodeRFIDScanner_Example-umbrella.h"; sourceTree = "<group>"; };
 		B7C6ACA8A6BCA63A309CDF0561130584 /* ZXQRCodeFinderPatternFinder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeFinderPatternFinder.m; path = ZXingObjC/qrcode/detector/ZXQRCodeFinderPatternFinder.m; sourceTree = "<group>"; };
 		B845E3DFB4B084A5BF607E72BED56CFE /* ZXPDF417ErrorCorrection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417ErrorCorrection.h; path = ZXingObjC/pdf417/encoder/ZXPDF417ErrorCorrection.h; sourceTree = "<group>"; };
 		B986FE464A034417D998279EAAD6AF3C /* ZXQRCodeFinderPatternInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeFinderPatternInfo.m; path = ZXingObjC/qrcode/detector/ZXQRCodeFinderPatternInfo.m; sourceTree = "<group>"; };
 		B9D95392C96172012CE50ED9AEFAF116 /* ZXDataMatrixTextEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixTextEncoder.h; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixTextEncoder.h; sourceTree = "<group>"; };
-		BA34345564AC601DA8EEE9397CC2B68A /* Pods-INSBarcodeRFIDScanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-INSBarcodeRFIDScanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BB564C789D65D90596B4C238876791C0 /* ZXITFWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXITFWriter.h; path = ZXingObjC/oned/ZXITFWriter.h; sourceTree = "<group>"; };
 		BBA927EC4B7533D261B00CA1E245C4A5 /* ZXEAN13Reader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXEAN13Reader.h; path = ZXingObjC/oned/ZXEAN13Reader.h; sourceTree = "<group>"; };
 		BC1CC5FD11027BB49CE14C93DAE7FD2E /* ZXBinaryBitmap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXBinaryBitmap.m; path = ZXingObjC/core/ZXBinaryBitmap.m; sourceTree = "<group>"; };
 		BD56ECB2DF75C110CDC46F85CB1B2DB4 /* ZXVINParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXVINParsedResult.h; path = ZXingObjC/client/result/ZXVINParsedResult.h; sourceTree = "<group>"; };
 		BD868CCC60BB571525C1D7BE2F1465AC /* ZXQRCodeDecoderMetaData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeDecoderMetaData.m; path = ZXingObjC/qrcode/decoder/ZXQRCodeDecoderMetaData.m; sourceTree = "<group>"; };
+		BE5AF6258E3E00B4513AAC27BAB93D60 /* ZXingObjC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZXingObjC.xcconfig; sourceTree = "<group>"; };
 		BE6E11617BFACAC5F5D9E2A27EA5D2FD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		BE8EE3F7B1CD76AEABC7DD799382B671 /* ZXProductParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXProductParsedResult.h; path = ZXingObjC/client/result/ZXProductParsedResult.h; sourceTree = "<group>"; };
 		BEB27CD8B6957C77471CB8B6EECFDA7C /* ZXGeoResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXGeoResultParser.m; path = ZXingObjC/client/result/ZXGeoResultParser.m; sourceTree = "<group>"; };
+		BEDDB6A631517647EE20718F242A0D76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF1F837942C9A878CB4A7D2C3D4234ED /* ZXDataMatrixHighLevelEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixHighLevelEncoder.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixHighLevelEncoder.m; sourceTree = "<group>"; };
 		BF4F710E002590F8BBBCD2A7B08421A9 /* ZXResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXResult.m; path = ZXingObjC/core/ZXResult.m; sourceTree = "<group>"; };
 		BFBCEA81FDEF328FA0F70DA8EAAD6762 /* ZXDataMatrixDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixDetector.m; path = ZXingObjC/datamatrix/detector/ZXDataMatrixDetector.m; sourceTree = "<group>"; };
@@ -876,17 +876,17 @@
 		C84674ABE52F5936046B9B4B982D2352 /* ZXDefaultGridSampler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDefaultGridSampler.h; path = ZXingObjC/common/ZXDefaultGridSampler.h; sourceTree = "<group>"; };
 		C8733EAC6E6D96338A83F396AE55EAC0 /* ZXQRCodeFormatInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeFormatInformation.h; path = ZXingObjC/qrcode/decoder/ZXQRCodeFormatInformation.h; sourceTree = "<group>"; };
 		C88B84D79BF6C2A63919CB621A643750 /* ZXGeoParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXGeoParsedResult.h; path = ZXingObjC/client/result/ZXGeoParsedResult.h; sourceTree = "<group>"; };
+		CA055F505DFDEC17B9CADD340EDC42D5 /* Pods-INSBarcodeRFIDScanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-INSBarcodeRFIDScanner_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CA243959F70B339332B1A8B6978A6F78 /* Pods-INSBarcodeRFIDScanner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-INSBarcodeRFIDScanner_Example.modulemap"; sourceTree = "<group>"; };
 		CA257D7C4180FACFE673818BF962C2E3 /* ZXByteMatrix.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXByteMatrix.m; path = ZXingObjC/core/ZXByteMatrix.m; sourceTree = "<group>"; };
 		CA6ACBD7DC5ACEE7D9E9A1D740A51139 /* ZXQRCodeReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeReader.h; path = ZXingObjC/qrcode/ZXQRCodeReader.h; sourceTree = "<group>"; };
 		CAFBFADCABD16FA1456F90FB865F10CA /* ZXDataMatrixEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixEncoder.h; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixEncoder.h; sourceTree = "<group>"; };
-		CBB5C236BC488F51535B7746E1530809 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC6EACFC52323AF6A6CC073CE88A2EE2 /* ZXDataMatrixC40Encoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixC40Encoder.h; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixC40Encoder.h; sourceTree = "<group>"; };
 		CC7CA222778F8595EB9EB690C4A05140 /* ZXBinarizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXBinarizer.m; path = ZXingObjC/core/ZXBinarizer.m; sourceTree = "<group>"; };
 		CC948473E4A1BD1B7D0E40F52C6E284A /* ZXAztecToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAztecToken.h; path = ZXingObjC/aztec/encoder/ZXAztecToken.h; sourceTree = "<group>"; };
 		CD3DD3FB5F508D9FA90FE9F356056EBA /* ZXDataMatrixEdifactEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixEdifactEncoder.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixEdifactEncoder.m; sourceTree = "<group>"; };
 		CD4B4E7D4985DF40708C4FDC90C571A2 /* ZXQRCodeAlignmentPatternFinder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeAlignmentPatternFinder.m; path = ZXingObjC/qrcode/detector/ZXQRCodeAlignmentPatternFinder.m; sourceTree = "<group>"; };
 		CDEBCA7DAAFCDBE6FBFF743D9DAE923D /* ZXGlobalHistogramBinarizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXGlobalHistogramBinarizer.h; path = ZXingObjC/common/ZXGlobalHistogramBinarizer.h; sourceTree = "<group>"; };
-		CE206A581C2F48AF83EA8909A5905DB5 /* Pods-INSBarcodeRFIDScanner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-INSBarcodeRFIDScanner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CF807212F9B09A587D3829B40B31106B /* ZXDataMatrixHighLevelEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixHighLevelEncoder.h; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixHighLevelEncoder.h; sourceTree = "<group>"; };
 		D07C95D8E7588344732B2CB4C6CAE0DA /* ZXQRCodeDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeDetector.h; path = ZXingObjC/qrcode/detector/ZXQRCodeDetector.h; sourceTree = "<group>"; };
 		D0A49DB67B05F4B14D3D5F11606E38C5 /* ZXCode39Reader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXCode39Reader.m; path = ZXingObjC/oned/ZXCode39Reader.m; sourceTree = "<group>"; };
@@ -912,9 +912,7 @@
 		DA8497B40121C223006058292AE92BA8 /* ZXDataMatrixSymbolInfo144.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixSymbolInfo144.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixSymbolInfo144.m; sourceTree = "<group>"; };
 		DBF2AE87A38AAF5582852493E33ABF3B /* ZXDataMatrixDataBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixDataBlock.m; path = ZXingObjC/datamatrix/decoder/ZXDataMatrixDataBlock.m; sourceTree = "<group>"; };
 		DCC312929CDBE5EFD59F51A68C23C292 /* ZXTelResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXTelResultParser.m; path = ZXingObjC/client/result/ZXTelResultParser.m; sourceTree = "<group>"; };
-		DD3DE3AAE2FF9DA4920B53E64514A868 /* ZXingObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZXingObjC-dummy.m"; sourceTree = "<group>"; };
 		DD65BB23DE6B2E73D7998E24B0BD51C9 /* ZXBizcardResultParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXBizcardResultParser.h; path = ZXingObjC/client/result/ZXBizcardResultParser.h; sourceTree = "<group>"; };
-		DD8DECB873E57563B9855541B1C554F5 /* ZXingObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZXingObjC-umbrella.h"; sourceTree = "<group>"; };
 		DE4A607F832570BC6C88EA2759A5F463 /* ZXQRCodeEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeEncoder.m; path = ZXingObjC/qrcode/encoder/ZXQRCodeEncoder.m; sourceTree = "<group>"; };
 		DEB56AD048BE3E2E468F39BE39FA21F5 /* ZXRGBLuminanceSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRGBLuminanceSource.h; path = ZXingObjC/core/ZXRGBLuminanceSource.h; sourceTree = "<group>"; };
 		DFEFECFEC17688401B9B92B4C5723C90 /* ZXAztecEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAztecEncoder.h; path = ZXingObjC/aztec/encoder/ZXAztecEncoder.h; sourceTree = "<group>"; };
@@ -922,6 +920,7 @@
 		E08AC225201FDF67C7BC93C912EE8538 /* ZXErrors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXErrors.m; path = ZXingObjC/core/ZXErrors.m; sourceTree = "<group>"; };
 		E17AF849AC3CA7AB551AEC6850492D33 /* ZXingObjCDataMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXingObjCDataMatrix.h; path = ZXingObjC/datamatrix/ZXingObjCDataMatrix.h; sourceTree = "<group>"; };
 		E2DE5448B9546A89CE7281941E149281 /* ZXCode39Writer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXCode39Writer.h; path = ZXingObjC/oned/ZXCode39Writer.h; sourceTree = "<group>"; };
+		E30A632EE20ED8C4EFE7B42DB4701589 /* Pods-INSBarcodeRFIDScanner_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-INSBarcodeRFIDScanner_Example-resources.sh"; sourceTree = "<group>"; };
 		E31ABAFFB4DFA92A996C358126DFBF8B /* ZXModulusGF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXModulusGF.h; path = ZXingObjC/pdf417/decoder/ec/ZXModulusGF.h; sourceTree = "<group>"; };
 		E34A24ACE4EB7EE533330A53ABA12142 /* ZXSMSTOMMSTOResultParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXSMSTOMMSTOResultParser.h; path = ZXingObjC/client/result/ZXSMSTOMMSTOResultParser.h; sourceTree = "<group>"; };
 		E3B18F08F870D4A6DF3CFADEB5548BB1 /* ZXAbstractRSSReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAbstractRSSReader.h; path = ZXingObjC/oned/rss/ZXAbstractRSSReader.h; sourceTree = "<group>"; };
@@ -936,9 +935,10 @@
 		EC587553649119D9236F84513E3AD734 /* ZXDecoderResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDecoderResult.m; path = ZXingObjC/common/ZXDecoderResult.m; sourceTree = "<group>"; };
 		EC6DC62433924AEA37C3BDF7E331F697 /* ZXRSSPair.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSPair.m; path = ZXingObjC/oned/rss/ZXRSSPair.m; sourceTree = "<group>"; };
 		EC96C270607FBEF25B40C1C75D1F7B76 /* ZXCode93Reader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXCode93Reader.m; path = ZXingObjC/oned/ZXCode93Reader.m; sourceTree = "<group>"; };
-		EC9F3CA5FDC8C181FEC5ABC030697A5C /* Pods-INSBarcodeRFIDScanner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-INSBarcodeRFIDScanner_Example-frameworks.sh"; sourceTree = "<group>"; };
 		ECF2B5EA58CBDBC7F65FCEE6A4B7B604 /* ZXPDF417Codeword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417Codeword.h; path = ZXingObjC/pdf417/decoder/ZXPDF417Codeword.h; sourceTree = "<group>"; };
+		ECF330062144929FAB4CD8A17B832277 /* ZXingObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZXingObjC-dummy.m"; sourceTree = "<group>"; };
 		ED02CE0E43D9FD4A7C634AADD73B8FB5 /* ZXAI01392xDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAI01392xDecoder.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI01392xDecoder.m; sourceTree = "<group>"; };
+		ED53C2E000F0F43B0E300EE038237BD7 /* Pods-INSBarcodeRFIDScanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-INSBarcodeRFIDScanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EDDC7E3741590357C78E9FF4C4EF5C51 /* ZXDataMatrixReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixReader.m; path = ZXingObjC/datamatrix/ZXDataMatrixReader.m; sourceTree = "<group>"; };
 		EE0554023C27D66B78623CB7A57F50F3 /* ZXPlanarYUVLuminanceSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPlanarYUVLuminanceSource.m; path = ZXingObjC/core/ZXPlanarYUVLuminanceSource.m; sourceTree = "<group>"; };
 		EF50728F692C6CA2C95920F01D1C0514 /* ZXCode128Reader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXCode128Reader.h; path = ZXingObjC/oned/ZXCode128Reader.h; sourceTree = "<group>"; };
@@ -946,7 +946,6 @@
 		EFC5E89DB2FAECACAC3A3050F6B630AA /* ZXOneDReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXOneDReader.h; path = ZXingObjC/oned/ZXOneDReader.h; sourceTree = "<group>"; };
 		F01671D503B388CC02D6282B1D8B0632 /* ZXAI013x0x1xDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAI013x0x1xDecoder.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI013x0x1xDecoder.m; sourceTree = "<group>"; };
 		F035C743BA5DA6908FACD41B2AAA0117 /* ZXDataMatrixErrorCorrection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixErrorCorrection.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixErrorCorrection.m; sourceTree = "<group>"; };
-		F03DBB5A498D2ADDA7542D2F11D53E54 /* Pods-INSBarcodeRFIDScanner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-INSBarcodeRFIDScanner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F055B3DBB822867EA08D17DF31693943 /* ZXURIResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXURIResultParser.m; path = ZXingObjC/client/result/ZXURIResultParser.m; sourceTree = "<group>"; };
 		F13ED41238CBBFA96B3FB986759F9C0C /* ZXRSSExpandedDecodedInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRSSExpandedDecodedInformation.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedDecodedInformation.h; sourceTree = "<group>"; };
 		F15FEB56EA94A57BF95CDAE024C13A62 /* ZXPDF417BarcodeRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417BarcodeRow.h; path = ZXingObjC/pdf417/encoder/ZXPDF417BarcodeRow.h; sourceTree = "<group>"; };
@@ -970,6 +969,7 @@
 		FB56C358C4870BB35569D14A334F4AF4 /* ZXCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXCapture.m; path = ZXingObjC/client/ZXCapture.m; sourceTree = "<group>"; };
 		FBD4E5A2573C1B856C64CEE5B8E340D9 /* ZXPDF417BarcodeValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417BarcodeValue.h; path = ZXingObjC/pdf417/decoder/ZXPDF417BarcodeValue.h; sourceTree = "<group>"; };
 		FC713616AA570BB1890D244E8BA85109 /* ZXUPCEANExtension2Support.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXUPCEANExtension2Support.m; path = ZXingObjC/oned/ZXUPCEANExtension2Support.m; sourceTree = "<group>"; };
+		FC8D636B302267A54B15A78B0F3C3DB2 /* Pods-INSBarcodeRFIDScanner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-INSBarcodeRFIDScanner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FCCE7EB19903220062A1BFE765155F41 /* ZXAztecHighLevelEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAztecHighLevelEncoder.m; path = ZXingObjC/aztec/encoder/ZXAztecHighLevelEncoder.m; sourceTree = "<group>"; };
 		FCE25699C4B797CBA57849481B628CE9 /* ZXMonochromeRectangleDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXMonochromeRectangleDetector.h; path = ZXingObjC/common/detector/ZXMonochromeRectangleDetector.h; sourceTree = "<group>"; };
 		FD1C4CC8577B3EA0D7E6C9D4509A9715 /* ZXPDF417BarcodeRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417BarcodeRow.m; path = ZXingObjC/pdf417/encoder/ZXPDF417BarcodeRow.m; sourceTree = "<group>"; };
@@ -1008,7 +1008,7 @@
 		0165264EC0912D732A11759EEF2B02AC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D2C721D5E729C6B10D9BE811ADA4E392 /* Pods-INSBarcodeRFIDScanner_Example */,
+				CC5A235FDC2C2A6C0E5EDB134903FAE4 /* Pods-INSBarcodeRFIDScanner_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -1483,7 +1483,7 @@
 			isa = PBXGroup;
 			children = (
 				4599A452A23F238A3FD2AC4B930B8949 /* All */,
-				8E05FD567DFBA545B85035304BF98778 /* Support Files */,
+				9EE83BF7D3CCF8B00AEE2C01BF4513CA /* Support Files */,
 			);
 			name = ZXingObjC;
 			path = ZXingObjC;
@@ -1500,15 +1500,15 @@
 			);
 			sourceTree = "<group>";
 		};
-		8E05FD567DFBA545B85035304BF98778 /* Support Files */ = {
+		9EE83BF7D3CCF8B00AEE2C01BF4513CA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2ACF932B6A71BDBE6BEC1DD4D3901E8C /* Info.plist */,
-				2C200ACA295D0AE2C6005A9B72E6FF13 /* ZXingObjC.modulemap */,
-				32E0AC7C31C59DE0E4B37732B54BB7FA /* ZXingObjC.xcconfig */,
-				DD3DE3AAE2FF9DA4920B53E64514A868 /* ZXingObjC-dummy.m */,
-				96CB1B84A348277C6F69527AE83BDFC6 /* ZXingObjC-prefix.pch */,
-				DD8DECB873E57563B9855541B1C554F5 /* ZXingObjC-umbrella.h */,
+				56ED0480B6CAD39783BAC4081CD71805 /* Info.plist */,
+				442F553313160ACFD07DAE7411989B03 /* ZXingObjC.modulemap */,
+				BE5AF6258E3E00B4513AAC27BAB93D60 /* ZXingObjC.xcconfig */,
+				ECF330062144929FAB4CD8A17B832277 /* ZXingObjC-dummy.m */,
+				21E38CBD71A39DF6D4882B8E6CC01F78 /* ZXingObjC-prefix.pch */,
+				B0B0F4C83F58B3BC646D084686B660DF /* ZXingObjC-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ZXingObjC";
@@ -1523,6 +1523,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CC5A235FDC2C2A6C0E5EDB134903FAE4 /* Pods-INSBarcodeRFIDScanner_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BEDDB6A631517647EE20718F242A0D76 /* Info.plist */,
+				CA243959F70B339332B1A8B6978A6F78 /* Pods-INSBarcodeRFIDScanner_Example.modulemap */,
+				469F6F89BE780A8268B9FE6A7421E3DD /* Pods-INSBarcodeRFIDScanner_Example-acknowledgements.markdown */,
+				FC8D636B302267A54B15A78B0F3C3DB2 /* Pods-INSBarcodeRFIDScanner_Example-acknowledgements.plist */,
+				43634AA433703887EBA1358843A28E94 /* Pods-INSBarcodeRFIDScanner_Example-dummy.m */,
+				1E3AEE4D4B5C730887C38CB573FF9379 /* Pods-INSBarcodeRFIDScanner_Example-frameworks.sh */,
+				E30A632EE20ED8C4EFE7B42DB4701589 /* Pods-INSBarcodeRFIDScanner_Example-resources.sh */,
+				B7A8632115E6E85C1FA99F78D23C6E29 /* Pods-INSBarcodeRFIDScanner_Example-umbrella.h */,
+				ED53C2E000F0F43B0E300EE038237BD7 /* Pods-INSBarcodeRFIDScanner_Example.debug.xcconfig */,
+				CA055F505DFDEC17B9CADD340EDC42D5 /* Pods-INSBarcodeRFIDScanner_Example.release.xcconfig */,
+			);
+			name = "Pods-INSBarcodeRFIDScanner_Example";
+			path = "Target Support Files/Pods-INSBarcodeRFIDScanner_Example";
+			sourceTree = "<group>";
+		};
 		D295E8F8969A1D36C7BC482D9923D7DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -1530,24 +1548,6 @@
 				4F9B4BCCC141AF1FBDD06958E0B3E725 /* ZXingObjC.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D2C721D5E729C6B10D9BE811ADA4E392 /* Pods-INSBarcodeRFIDScanner_Example */ = {
-			isa = PBXGroup;
-			children = (
-				CBB5C236BC488F51535B7746E1530809 /* Info.plist */,
-				9CD103E606D21DF2C7BBFF9C29BAEA15 /* Pods-INSBarcodeRFIDScanner_Example.modulemap */,
-				F03DBB5A498D2ADDA7542D2F11D53E54 /* Pods-INSBarcodeRFIDScanner_Example-acknowledgements.markdown */,
-				CE206A581C2F48AF83EA8909A5905DB5 /* Pods-INSBarcodeRFIDScanner_Example-acknowledgements.plist */,
-				10DB55984E3828896E686F43BA2DD4E8 /* Pods-INSBarcodeRFIDScanner_Example-dummy.m */,
-				EC9F3CA5FDC8C181FEC5ABC030697A5C /* Pods-INSBarcodeRFIDScanner_Example-frameworks.sh */,
-				65DC34AF8A573F7E9060B70BF5EEFA49 /* Pods-INSBarcodeRFIDScanner_Example-resources.sh */,
-				0147E2ABC9C49C5374060FB35314EBD4 /* Pods-INSBarcodeRFIDScanner_Example-umbrella.h */,
-				BA34345564AC601DA8EEE9397CC2B68A /* Pods-INSBarcodeRFIDScanner_Example.debug.xcconfig */,
-				5AE52F0E6D997731294961500E6BCCBF /* Pods-INSBarcodeRFIDScanner_Example.release.xcconfig */,
-			);
-			name = "Pods-INSBarcodeRFIDScanner_Example";
-			path = "Target Support Files/Pods-INSBarcodeRFIDScanner_Example";
 			sourceTree = "<group>";
 		};
 		D31D767FA5960D754A6D66A574C6B1A9 /* Frameworks */ = {
@@ -1890,8 +1890,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2161,100 +2161,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02A810D1353ADF641C9FAB60973A55D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA34345564AC601DA8EEE9397CC2B68A /* Pods-INSBarcodeRFIDScanner_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-INSBarcodeRFIDScanner_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-INSBarcodeRFIDScanner_Example/Pods-INSBarcodeRFIDScanner_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_INSBarcodeRFIDScanner_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4A5DBD6CA162E877F74E05B559C690E6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32E0AC7C31C59DE0E4B37732B54BB7FA /* ZXingObjC.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZXingObjC/ZXingObjC-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZXingObjC/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZXingObjC/ZXingObjC.modulemap";
-				PRODUCT_NAME = ZXingObjC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		97C6E63B62E2A6316549E6AC4F040370 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32E0AC7C31C59DE0E4B37732B54BB7FA /* ZXingObjC.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZXingObjC/ZXingObjC-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZXingObjC/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZXingObjC/ZXingObjC.modulemap";
-				PRODUCT_NAME = ZXingObjC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2264,10 +2171,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -2275,6 +2184,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -2283,94 +2193,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		C73C4B7C4AE78AD4595B459B569608D1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AE52F0E6D997731294961500E6BCCBF /* Pods-INSBarcodeRFIDScanner_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-INSBarcodeRFIDScanner_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-INSBarcodeRFIDScanner_Example/Pods-INSBarcodeRFIDScanner_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_INSBarcodeRFIDScanner_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -2395,12 +2218,199 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		283B3F4818A2E8F4F54C157D07336019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE5AF6258E3E00B4513AAC27BAB93D60 /* ZXingObjC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZXingObjC/ZXingObjC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZXingObjC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZXingObjC/ZXingObjC.modulemap";
+				PRODUCT_MODULE_NAME = ZXingObjC;
+				PRODUCT_NAME = ZXingObjC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4512430CC2DFC1F8E1CE94E31BBE61A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA055F505DFDEC17B9CADD340EDC42D5 /* Pods-INSBarcodeRFIDScanner_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-INSBarcodeRFIDScanner_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-INSBarcodeRFIDScanner_Example/Pods-INSBarcodeRFIDScanner_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4EE0EAF0E428749C458F2A0566B46C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE5AF6258E3E00B4513AAC27BAB93D60 /* ZXingObjC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZXingObjC/ZXingObjC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZXingObjC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZXingObjC/ZXingObjC.modulemap";
+				PRODUCT_MODULE_NAME = ZXingObjC;
+				PRODUCT_NAME = ZXingObjC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4CB057C08FBD035E6180CE5FAF2B2EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED53C2E000F0F43B0E300EE038237BD7 /* Pods-INSBarcodeRFIDScanner_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-INSBarcodeRFIDScanner_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-INSBarcodeRFIDScanner_Example/Pods-INSBarcodeRFIDScanner_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -2408,8 +2418,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
-				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2417,8 +2427,8 @@
 		8000B135BE155310820AC986F14B329D /* Build configuration list for PBXNativeTarget "ZXingObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97C6E63B62E2A6316549E6AC4F040370 /* Debug */,
-				4A5DBD6CA162E877F74E05B559C690E6 /* Release */,
+				283B3F4818A2E8F4F54C157D07336019 /* Debug */,
+				4EE0EAF0E428749C458F2A0566B46C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2426,8 +2436,8 @@
 		E062D003AE001CFEB5F8FC47053253D7 /* Build configuration list for PBXNativeTarget "Pods-INSBarcodeRFIDScanner_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				02A810D1353ADF641C9FAB60973A55D4 /* Debug */,
-				C73C4B7C4AE78AD4595B459B569608D1 /* Release */,
+				C4CB057C08FBD035E6180CE5FAF2B2EB /* Debug */,
+				4512430CC2DFC1F8E1CE94E31BBE61A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
