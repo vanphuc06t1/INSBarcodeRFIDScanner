@@ -10,7 +10,7 @@ DEPENDENCIES:
   - ZXingObjC
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - ZXingObjC
 
 EXTERNAL SOURCES:
@@ -29,4 +29,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 053777b13be2ee4873dc5cadf59d34fc0a19b4cf
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
