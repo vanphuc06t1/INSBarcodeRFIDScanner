@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		3NqsFx9GG82HQK1LgUKbiyv1Jd0=
+		IEuXq7PP+89/g6r6CF+IHEl0lXI=
 		</data>
 		<key>BarcodeRFID.storyboardc/BarcodeScannerViewController.nib</key>
 		<data>
-		iw1iQAss8x2g5hzHeNWZAprhmeE=
+		Pg/pdyLzTvtT18oSga4XnGBdh/0=
 		</data>
 		<key>BarcodeRFID.storyboardc/Info.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>BarcodeRFID.storyboardc/NfG-2f-iTj-view-d7a-38-E6J.nib</key>
 		<data>
-		0FSyfoe/9tLufoPArmPmuf/ePAQ=
+		6rbrLiZEYKo/X9l3gLLVpSHhySM=
 		</data>
 		<key>Headers/AccessOperationCode.h</key>
 		<data>
@@ -218,7 +218,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		G68sIlZ7lMzuEDHf83TxFixXJVA=
+		LTYtmDaIuuPSPaDsgX1nzxOcc+E=
+		</data>
+		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm.swiftdoc</key>
+		<data>
+		IeQAgDlG1qqAyToM1oe98Q9ipOU=
+		</data>
+		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm.swiftmodule</key>
+		<data>
+		qtR//7JHtS8RVhRFHZKKxb1B0b0=
 		</data>
 		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -243,22 +251,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3NqsFx9GG82HQK1LgUKbiyv1Jd0=
+			IEuXq7PP+89/g6r6CF+IHEl0lXI=
 			</data>
 			<key>hash2</key>
 			<data>
-			xU8isIdLVm8naG6BHqnSvrMZsnF9i/2Z9S7dO9xBqqs=
+			zjWhhCdQIZiEvkzl3JtktClUDVJUPykCrotTBOU01LQ=
 			</data>
 		</dict>
 		<key>BarcodeRFID.storyboardc/BarcodeScannerViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iw1iQAss8x2g5hzHeNWZAprhmeE=
+			Pg/pdyLzTvtT18oSga4XnGBdh/0=
 			</data>
 			<key>hash2</key>
 			<data>
-			9QFdSGFUlKHVsfr+YVG8+uibF/G50+ogub2C9PtLQPs=
+			pmwc8CQjy0B3Zr4PDtqwIzaFBtoB0lKnnHpn6TRY8Ec=
 			</data>
 		</dict>
 		<key>BarcodeRFID.storyboardc/Info.plist</key>
@@ -276,11 +284,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0FSyfoe/9tLufoPArmPmuf/ePAQ=
+			6rbrLiZEYKo/X9l3gLLVpSHhySM=
 			</data>
 			<key>hash2</key>
 			<data>
-			X1FiNqIKbradqc6H8SkgupyVDvcWCm73GlgPSUZUblU=
+			AZxcNf7IVFEzRVYYPkC/5PDlArcCWeiH6ZnhefpMv60=
 			</data>
 		</dict>
 		<key>Headers/AccessOperationCode.h</key>
@@ -820,6 +828,28 @@
 			<key>hash2</key>
 			<data>
 			+uBDAfunH9m6vgnar28ARCGumo/rO/5OGSCU35n12fI=
+			</data>
+		</dict>
+		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IeQAgDlG1qqAyToM1oe98Q9ipOU=
+			</data>
+			<key>hash2</key>
+			<data>
+			0VVCXe4AN+xaKwugwoSfthahPRqw1udjNVxp4uP5i+E=
+			</data>
+		</dict>
+		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qtR//7JHtS8RVhRFHZKKxb1B0b0=
+			</data>
+			<key>hash2</key>
+			<data>
+			WPWoirzwT9ksZndBeN0qPNFl5LP7aw0D4kNjwfy1T+M=
 			</data>
 		</dict>
 		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm64.swiftdoc</key>
