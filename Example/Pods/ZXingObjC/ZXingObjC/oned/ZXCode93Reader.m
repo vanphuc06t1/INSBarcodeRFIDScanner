@@ -21,7 +21,7 @@
 #import "ZXResult.h"
 #import "ZXResultPoint.h"
 
-NSString *ZX_CODE93_ALPHABET_STRING = nil;
+const NSString *ZX_CODE93_ALPHABET_STRING = @"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ-. $/+%abcd*";
 const unichar ZX_CODE93_ALPHABET[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D',
   'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W',
   'X', 'Y', 'Z', '-', '.', ' ', '$', '/', '+', '%', 'a', 'b', 'c', 'd', '*'};
@@ -48,13 +48,6 @@ const int ZX_CODE93_ASTERISK_ENCODING = 0x15E;
 @end
 
 @implementation ZXCode93Reader
-
-+ (void)initialize {
-  if ([self class] != [ZXCode93Reader class]) return;
-
-  ZX_CODE93_ALPHABET_STRING = [[NSString alloc] initWithCharacters:ZX_CODE93_ALPHABET
-                                                            length:sizeof(ZX_CODE93_ALPHABET) / sizeof(unichar)];
-}
 
 - (id)init {
   if (self = [super init]) {
@@ -235,9 +228,20 @@ const int ZX_CODE93_ASTERISK_ENCODING = 0x15E;
         break;
       case 'b':
         if (next >= 'A' && next <= 'E') {
+          // %A to %E map to control codes ESC to USep
           decodedChar = (unichar)(next - 38);
-        } else if (next >= 'F' && next <= 'W') {
+        } else if (next >= 'F' && next <= 'J') {
+          // %F to %J map to ; < = > ?
           decodedChar = (unichar)(next - 11);
+        } else if (next >= 'K' && next <= 'O') {
+          // %K to %O map to [ \ ] ^ _
+          decodedChar = (unichar) (next + 16);
+        } else if (next >= 'P' && next <= 'S') {
+          // %P to %S map to { | } ~
+          decodedChar = (unichar) (next + 43);
+        } else if (next >= 'T' && next <= 'Z') {
+          // %T to %Z all map to DEL (127)
+          decodedChar = 127;
         } else {
           return nil;
         }

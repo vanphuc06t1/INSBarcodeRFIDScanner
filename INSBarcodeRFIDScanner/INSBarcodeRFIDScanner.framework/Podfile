@@ -1,7 +1,7 @@
 target 'INSBarcodeRFIDScanner' do
 # Comment this line if you're not using Swift and don't want to use dynamic frameworks
 use_frameworks!
-pod 'ZXingObjC'
+pod 'ZXingObjC', '~> 3.6.0'
 pod 'INSBarcodeRFIDScanner', :path => '../INSBarcodeRFIDScanner'
 
   target 'INSBarcodeRFIDScannerTests' do
