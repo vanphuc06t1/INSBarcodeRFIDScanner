@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		+g/xXJJ4VV4inukY+/9jHRDYkWw=
+		QO/IAu/Wvt+IpDY/BPKuMcNJ5pA=
 		</data>
 		<key>BarcodeRFID.storyboardc/BarcodeScannerViewController.nib</key>
 		<data>
@@ -218,7 +218,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dBbrqWthUrD9DIx3/0m7Peoo9g8=
+		bupCQvJKQz87UtgfE1oqjyU15tk=
+		</data>
+		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm.swiftdoc</key>
+		<data>
+		ns8YthyNE2G5ye87OJS/FeGQ7vU=
+		</data>
+		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm.swiftmodule</key>
+		<data>
+		JT4sZpU67+ObdtOAEytFLDdd76E=
 		</data>
 		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -243,11 +251,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+g/xXJJ4VV4inukY+/9jHRDYkWw=
+			QO/IAu/Wvt+IpDY/BPKuMcNJ5pA=
 			</data>
 			<key>hash2</key>
 			<data>
-			08PCbA7XoZsIuPv3bPlinb7z3S3F4SY9GOmEUjMKYNk=
+			a6x5kP5QvGmS7CGo3zqu4JmeK4CK/vpUCVv2z7yWpU0=
 			</data>
 		</dict>
 		<key>BarcodeRFID.storyboardc/BarcodeScannerViewController.nib</key>
@@ -820,6 +828,28 @@
 			<key>hash2</key>
 			<data>
 			+uBDAfunH9m6vgnar28ARCGumo/rO/5OGSCU35n12fI=
+			</data>
+		</dict>
+		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ns8YthyNE2G5ye87OJS/FeGQ7vU=
+			</data>
+			<key>hash2</key>
+			<data>
+			JidEAi8QUeZHy05wubmpN3pZsiVsI0rNiBWDCbp8p/U=
+			</data>
+		</dict>
+		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JT4sZpU67+ObdtOAEytFLDdd76E=
+			</data>
+			<key>hash2</key>
+			<data>
+			J/mTouOTySOSNxcctpwgEnUeIQhk4ZHoRSlmZ5z1ZBI=
 			</data>
 		</dict>
 		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm64.swiftdoc</key>
