@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		BtiFxn71Jj2M9rQls7SuKkkHGSc=
+		4UZ6ijotWNUkuiq5gSL/ZOPaNvk=
 		</data>
 		<key>BarcodeRFID.storyboardc/BarcodeScannerViewController.nib</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/INSBarcodeRFIDScanner-Swift.h</key>
 		<data>
-		n7LDgiuFiNWymJLLyoXIGVwa9Vs=
+		FmWVDss0P6TXZwvcsZRilP4Y2kY=
 		</data>
 		<key>Headers/INSBarcodeRFIDScanner-umbrella.h</key>
 		<data>
@@ -218,7 +218,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dBbrqWthUrD9DIx3/0m7Peoo9g8=
+		bupCQvJKQz87UtgfE1oqjyU15tk=
+		</data>
+		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm.swiftdoc</key>
+		<data>
+		ns8YthyNE2G5ye87OJS/FeGQ7vU=
+		</data>
+		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm.swiftmodule</key>
+		<data>
+		2PUIW803Gv4gUY5yM68r/CAk/o0=
 		</data>
 		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -226,7 +234,7 @@
 		</data>
 		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		NIZAQ40bjMlJ3wbdl7JSD4RwyS0=
+		Shz7LkTcqRUuLO+oBO//5jEEkN0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -243,11 +251,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BtiFxn71Jj2M9rQls7SuKkkHGSc=
+			4UZ6ijotWNUkuiq5gSL/ZOPaNvk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jl24d3Rf+KlCXF8H3c/y0scsAeh265MnNqupwMcTIWU=
+			vWfADJy5i7mi0aPmkmsy9KeOX4VeTdOv2OI3WTaOFes=
 			</data>
 		</dict>
 		<key>BarcodeRFID.storyboardc/BarcodeScannerViewController.nib</key>
@@ -342,11 +350,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			n7LDgiuFiNWymJLLyoXIGVwa9Vs=
+			FmWVDss0P6TXZwvcsZRilP4Y2kY=
 			</data>
 			<key>hash2</key>
 			<data>
-			eFaQABGxwnMrb7d/ZEc2XvQfVWxfLgToqvg9PM9ITp8=
+			hxBTgaj7HRvMQi8D3dJetEDB3/dOF+fRl9+6bWJjjyU=
 			</data>
 		</dict>
 		<key>Headers/INSBarcodeRFIDScanner-umbrella.h</key>
@@ -822,6 +830,28 @@
 			+uBDAfunH9m6vgnar28ARCGumo/rO/5OGSCU35n12fI=
 			</data>
 		</dict>
+		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ns8YthyNE2G5ye87OJS/FeGQ7vU=
+			</data>
+			<key>hash2</key>
+			<data>
+			JidEAi8QUeZHy05wubmpN3pZsiVsI0rNiBWDCbp8p/U=
+			</data>
+		</dict>
+		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2PUIW803Gv4gUY5yM68r/CAk/o0=
+			</data>
+			<key>hash2</key>
+			<data>
+			CtXEF62nmLTGsn1s0mongHBafLhYS5NRmVGimNncwfI=
+			</data>
+		</dict>
 		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
@@ -837,11 +867,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NIZAQ40bjMlJ3wbdl7JSD4RwyS0=
+			Shz7LkTcqRUuLO+oBO//5jEEkN0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y4Rvo6SlOriY98fyE8fstdzAM5DNc3LCEO8CU25ZQJA=
+			UDQ6tw4UcjX4EMtDTQ5rVPnc8JzhvdCmiDY3LU1uyss=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

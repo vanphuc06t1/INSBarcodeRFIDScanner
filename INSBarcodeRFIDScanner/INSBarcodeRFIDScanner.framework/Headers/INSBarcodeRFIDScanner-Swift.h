@@ -209,9 +209,11 @@ SWIFT_CLASS("_TtC21INSBarcodeRFIDScanner28BarcodeScannerViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@protocol INSBarcodeRFIDReaderDelegate;
 
 SWIFT_CLASS_NAMED("INSBarcodeRFIDReader")
 @interface INSBarcodeRFIDReader : NSObject
+@property (nonatomic, weak) id <INSBarcodeRFIDReaderDelegate> _Nullable delegate;
 + (INSBarcodeRFIDReader * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (void)showBarcodeRFIDReader;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
