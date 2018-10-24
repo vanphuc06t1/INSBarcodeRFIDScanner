@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'INSBarcodeRFIDScanner'
-  s.version          = '1.4.3'
+  s.version          = '1.4.4'
   s.summary          = 'INSBarcodeRFIDScanner for reading barcode and RFID.'
 
 # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ INSBarcodeRFIDScanner for reading barcode and RFID then compare barcode and RFID
   # }
 
  # s.frameworks = "CoreBluetooth", "ExternalAccessory"
-  s.dependency 'ZXingObjC', '~> 3.6.0'
+  s.dependency "ZXingObjC"
   s.vendored_frameworks = ['Pod/Frameworks/ZXingObjC.framework', 'INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.framework', 'Pod/Frameworks/INSBarcodeRFIDScanner.framework',]
  # s.ios.library = 'Pods/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner/Classes/Private/RFID/symbolrfid-sdk/*'
    #s.xcconfig     = {'LIBRARY_SEARCH_PATHS' => "$(SRCROOT)/Pods/**", 'USER_HEADER_SEARCH_PATHS' => '"${PROJECT_DIR}/.."/**' , "ENABLE_BITCODE" => "NO" }
