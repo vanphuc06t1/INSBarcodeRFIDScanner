@@ -226,7 +226,7 @@
 		</data>
 		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Shz7LkTcqRUuLO+oBO//5jEEkN0=
+		T69meebUaCXyzZK8McXSkYw1Uwc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -837,11 +837,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Shz7LkTcqRUuLO+oBO//5jEEkN0=
+			T69meebUaCXyzZK8McXSkYw1Uwc=
 			</data>
 			<key>hash2</key>
 			<data>
-			UDQ6tw4UcjX4EMtDTQ5rVPnc8JzhvdCmiDY3LU1uyss=
+			0HAp6yGX5Ti5jVqxCW1D+/K97tNMh82qqtPwVpp04rI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
