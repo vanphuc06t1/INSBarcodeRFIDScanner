@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		3sSzOVxBOKB2sQwuu+OcDPtiHes=
+		+g/xXJJ4VV4inukY+/9jHRDYkWw=
 		</data>
 		<key>BarcodeRFID.storyboardc/BarcodeScannerViewController.nib</key>
 		<data>
-		clWdK18I/v+R5giS4gNYMNtUpV4=
+		GgD4DWs0quINlhQmeSfNC1y9MpM=
 		</data>
 		<key>BarcodeRFID.storyboardc/Info.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>BarcodeRFID.storyboardc/NfG-2f-iTj-view-d7a-38-E6J.nib</key>
 		<data>
-		mCB6HFvNEPhU5Erl2JWbUOhEGoI=
+		KRvxJj7oQPk2DmGz5z2nO3X3FlE=
 		</data>
 		<key>Headers/AccessOperationCode.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/INSBarcodeRFIDScanner-Swift.h</key>
 		<data>
-		Py7hQj8RqiqEZOBNvrQ3jIVyzZ4=
+		FmWVDss0P6TXZwvcsZRilP4Y2kY=
 		</data>
 		<key>Headers/INSBarcodeRFIDScanner-umbrella.h</key>
 		<data>
@@ -218,15 +218,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bupCQvJKQz87UtgfE1oqjyU15tk=
-		</data>
-		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm.swiftdoc</key>
-		<data>
-		ns8YthyNE2G5ye87OJS/FeGQ7vU=
-		</data>
-		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm.swiftmodule</key>
-		<data>
-		FIq9zbQenstMtUDlsHXfy5KBle4=
+		dBbrqWthUrD9DIx3/0m7Peoo9g8=
 		</data>
 		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -234,7 +226,7 @@
 		</data>
 		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		KgPfTB53QR2XVswPdiLnmr/5dVg=
+		T69meebUaCXyzZK8McXSkYw1Uwc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -242,7 +234,7 @@
 		</data>
 		<key>Podfile</key>
 		<data>
-		GQDpH756WpfOtaQFyqYcyhsyYvA=
+		uiHfFMxaOITueoZN1HVVvTDaEsY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -251,22 +243,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3sSzOVxBOKB2sQwuu+OcDPtiHes=
+			+g/xXJJ4VV4inukY+/9jHRDYkWw=
 			</data>
 			<key>hash2</key>
 			<data>
-			IOoN7n7NBoWE+OagEoGIOZjnkZtU/j3diWxC5oyjPAQ=
+			08PCbA7XoZsIuPv3bPlinb7z3S3F4SY9GOmEUjMKYNk=
 			</data>
 		</dict>
 		<key>BarcodeRFID.storyboardc/BarcodeScannerViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			clWdK18I/v+R5giS4gNYMNtUpV4=
+			GgD4DWs0quINlhQmeSfNC1y9MpM=
 			</data>
 			<key>hash2</key>
 			<data>
-			nOKSUqA1w4DJo2meBiymFgxZ4y9qfsNGUb0HtVCZNMg=
+			FhyqYGA/aB0opwwWMP4xYid6KAW9ct7lOoeLZKHf9Ng=
 			</data>
 		</dict>
 		<key>BarcodeRFID.storyboardc/Info.plist</key>
@@ -284,11 +276,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mCB6HFvNEPhU5Erl2JWbUOhEGoI=
+			KRvxJj7oQPk2DmGz5z2nO3X3FlE=
 			</data>
 			<key>hash2</key>
 			<data>
-			V2KZsZJoc+B2/Q7j1D6UXRKyNe4m7zAnm0A33Kw97XQ=
+			e7ff3v6mhgHC63CQsTWYYIJm/1CbZO+eoUPVIwul4IY=
 			</data>
 		</dict>
 		<key>Headers/AccessOperationCode.h</key>
@@ -350,11 +342,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Py7hQj8RqiqEZOBNvrQ3jIVyzZ4=
+			FmWVDss0P6TXZwvcsZRilP4Y2kY=
 			</data>
 			<key>hash2</key>
 			<data>
-			tUZHKUSbJBxOCEu1xzBUse1J5VbKGTMOsfLpgV27bRQ=
+			hxBTgaj7HRvMQi8D3dJetEDB3/dOF+fRl9+6bWJjjyU=
 			</data>
 		</dict>
 		<key>Headers/INSBarcodeRFIDScanner-umbrella.h</key>
@@ -830,28 +822,6 @@
 			+uBDAfunH9m6vgnar28ARCGumo/rO/5OGSCU35n12fI=
 			</data>
 		</dict>
-		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ns8YthyNE2G5ye87OJS/FeGQ7vU=
-			</data>
-			<key>hash2</key>
-			<data>
-			JidEAi8QUeZHy05wubmpN3pZsiVsI0rNiBWDCbp8p/U=
-			</data>
-		</dict>
-		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FIq9zbQenstMtUDlsHXfy5KBle4=
-			</data>
-			<key>hash2</key>
-			<data>
-			IXFyX6Woja02zEcwR/t9nTnzt4Ug9PqTlIGr1zJFQ2I=
-			</data>
-		</dict>
 		<key>Modules/INSBarcodeRFIDScanner.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
@@ -867,11 +837,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KgPfTB53QR2XVswPdiLnmr/5dVg=
+			T69meebUaCXyzZK8McXSkYw1Uwc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Umn/4EXyJzqHNvigOZUUlJ0BGFD7x0WvMECmVITWce4=
+			0HAp6yGX5Ti5jVqxCW1D+/K97tNMh82qqtPwVpp04rI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -889,11 +859,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GQDpH756WpfOtaQFyqYcyhsyYvA=
+			uiHfFMxaOITueoZN1HVVvTDaEsY=
 			</data>
 			<key>hash2</key>
 			<data>
-			UXGFvHd6Dy+Xi8hx9qm1IRjPn7kjkaF2R9c+TvaMDeM=
+			j82rMPiceZUaLl3G54kk6ha/FwkHqAAqRfBXGqyNe0A=
 			</data>
 		</dict>
 	</dict>

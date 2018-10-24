@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'INSBarcodeRFIDScanner_Example' do
     #pod 'INSBarcodeRFIDScanner', :path => '../'
-    pod 'ZXingObjC'
+    pod 'ZXingObjC', '~> 3.6.0'
     #pod 'INSBarcodeRFIDScanner', :path => '../'
     #pod 'INSBarcodeRFIDScanner', :git => 'https://PhucBui88@bitbucket.org/PhucBui88/insbarcoderfidscanner.git', :tag => ‘1.0.4’
     pod 'INSBarcodeRFIDScanner', :git => 'https://github.com/vanphuc06t1/INSBarcodeRFIDScanner.git', :branch => 'master'

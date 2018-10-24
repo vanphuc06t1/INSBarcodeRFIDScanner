@@ -137,6 +137,7 @@
 				607FACCE1AFB9204008FA782 /* Resources */,
 				428F4B0BF86A1018EEA21EC9 /* [CP] Embed Pods Frameworks */,
 				22CAF5821F81F63E00BC3C68 /* Embed Frameworks */,
+				48DBF6AE506C3F1559A25BDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +234,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-INSBarcodeRFIDScanner_Example/Pods-INSBarcodeRFIDScanner_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48DBF6AE506C3F1559A25BDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-INSBarcodeRFIDScanner_Example/Pods-INSBarcodeRFIDScanner_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/INSBarcodeRFIDScanner/INSBarcodeRFIDScanner.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/INSBarcodeRFIDScanner.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-INSBarcodeRFIDScanner_Example/Pods-INSBarcodeRFIDScanner_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

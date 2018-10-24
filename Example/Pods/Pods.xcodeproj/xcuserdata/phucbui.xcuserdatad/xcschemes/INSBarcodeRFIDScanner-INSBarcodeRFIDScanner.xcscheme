@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "41DAF2CBC6453E913A875BFBC4B58D89"
-               BuildableName = "Pods_INSBarcodeRFIDScanner_Example.framework"
-               BlueprintName = "Pods-INSBarcodeRFIDScanner_Example"
+               BlueprintIdentifier = "53AB26693B20E01425804D5323F76B6C"
+               BuildableName = "INSBarcodeRFIDScanner.bundle"
+               BlueprintName = "INSBarcodeRFIDScanner-INSBarcodeRFIDScanner"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "41DAF2CBC6453E913A875BFBC4B58D89"
-            BuildableName = "Pods_INSBarcodeRFIDScanner_Example.framework"
-            BlueprintName = "Pods-INSBarcodeRFIDScanner_Example"
+            BlueprintIdentifier = "53AB26693B20E01425804D5323F76B6C"
+            BuildableName = "INSBarcodeRFIDScanner.bundle"
+            BlueprintName = "INSBarcodeRFIDScanner-INSBarcodeRFIDScanner"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
